@@ -5,6 +5,12 @@ export type SourceOptions = {
   port: string;
   username: string;
   password: string;
+  ca_cert: string;
+  sshHost: string;
+  sshUser: string;
+  sshPort: string;
+  sshKey: string;
+  connection_string: string;
 };
 export type QueryOptions = {
   operation: string;
