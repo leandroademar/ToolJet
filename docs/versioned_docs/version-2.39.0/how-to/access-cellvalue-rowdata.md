@@ -2,14 +2,13 @@
 id: access-cellvalue-rowdata
 title: Dynamically Change Cell Colors in Table
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 This guide shows how to change the text color and background color of certain cells in a **Table** component based on specific conditions.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Create a New Application and Set up the Data Source
 - Create a new app and add a **[Table](/docs/widgets/table)** component to the canvas.
 - Open the Query Panel at the bottom and click on the `+ Add` button.
@@ -22,8 +21,7 @@ https://fakestoreapi.com/products
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Display Data on the Table
 
 - Hide the Query Panel and click on the **Table** component to open its properties panel on the right.
@@ -37,8 +35,7 @@ https://fakestoreapi.com/products
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Change Text Color Based on Cell Value
 
 - Select the **Table** component and go to Columns.
@@ -58,8 +55,7 @@ Now, if the cell value is `electronics`, the text color will be red; otherwise, 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Change Text Color Using Row Data
 
 - Under Cell Background Color for the `symbol` column, paste the below code: 

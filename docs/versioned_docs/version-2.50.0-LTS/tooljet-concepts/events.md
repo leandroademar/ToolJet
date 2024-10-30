@@ -9,8 +9,7 @@ Events are used to run queries, show alerts and other functionalities based on t
     <iframe width="560" height="315" src="https://www.youtube.com/embed/sy3W1wyv9k0?si=t_FdABU4ttZieCAh&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Triggering Events
 Suppose you have a query that refreshes data when a user clicks on a button, and you also want to display a pop-up alert upon successful data refresh. In ToolJet, you can configure an event to trigger a query upon clicking the button, followed by another event to display a pop-up alert confirming the successful data refresh after the query execution is completed.
 
@@ -20,8 +19,7 @@ Suppose you have a query that refreshes data when a user clicks on a button, and
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Setting Up Event Handlers
 
 Setting up event handlers to manage such triggers and responses is a straightforward process in ToolJet. For instance, to set up an event that triggers on the click of a button, you simply navigate to the button component's configuration, click on **New Event Handler**, and define the Event and the Action to be taken. The actions could range from running a query, showing an alert, or even switching to a different page. 

@@ -5,8 +5,7 @@ title: Icon
 
 An Icon widget can be used to add icons(sourced from icon library). It supports events like on hover and on click.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 |  <div style={{ width:"100px"}}> Properties </div> |  <div style={{ width:"100px"}}> Description </div> |  <div style={{ width:"135px"}}> Expected Value </div> |
@@ -15,8 +14,7 @@ An Icon widget can be used to add icons(sourced from icon library). It supports 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 To add an event, click on the icon widget's configuration handle to open the widget properties on the components drawer on the right. Go to the **Events** section and click on **+ Add handler**.
@@ -36,8 +34,7 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of the component can be controlled using the component specific actions(CSA):
@@ -49,24 +46,21 @@ Following actions of the component can be controlled using the component specifi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 There are currently no exposed variables for the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 
 <b>Tooltip:</b> Set a tooltip text to specify the information when the user moves the mouse pointer over the widget.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -76,8 +70,7 @@ There are currently no exposed variables for the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |

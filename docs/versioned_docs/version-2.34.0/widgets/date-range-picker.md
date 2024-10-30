@@ -6,8 +6,7 @@ title: Date-range picker
 
 The date-range picker widget allows users to select a range of dates.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"135px"}}> Property  </div>    | <div style={{ width:"100px"}}> Description </div> |
@@ -18,8 +17,7 @@ The date-range picker widget allows users to select a range of dates.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 Date range picker supports the following events:
@@ -34,16 +32,14 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no CSA (Component-Specific Actions) implemented to regulate or control the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables </div> | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -53,8 +49,7 @@ There are currently no CSA (Component-Specific Actions) implemented to regulate 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -64,8 +59,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -75,8 +69,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Default Value </div> |

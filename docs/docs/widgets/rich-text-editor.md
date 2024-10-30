@@ -7,8 +7,7 @@ title: Text Editor
 
 The **Text Editor** component is used to enter and edit text in HTML format. It is recommended for blog posts, forum posts, or notes sections. The entered text is used as the label for the radio button.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Properties
 
 | **Property**  | **Description** | **Expected Value** |
@@ -18,16 +17,14 @@ The **Text Editor** component is used to enter and edit text in HTML format. It 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no Component-Specific Actions (CSA) implemented to regulate or control the component.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | **Variable** | **Description** | **How To Access** |
@@ -36,8 +33,7 @@ There are currently no Component-Specific Actions (CSA) implemented to regulate 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -45,8 +41,7 @@ A tooltip provides additional information when the user hovers over the componen
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Devices
 
 | **Property** |**Description** | **Expected Value** |
@@ -56,8 +51,7 @@ A tooltip provides additional information when the user hovers over the componen
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Styles
 
 | **Property** | **Description** | **Configuration Options** |

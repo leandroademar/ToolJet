@@ -5,8 +5,7 @@ title: Slack
 
 ToolJet can connect to your Slack workspace to send messages. 
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the **Slack** datasource, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page through the ToolJet dashboard.
@@ -25,8 +24,7 @@ The App (which credentials are provided) needs to be installed in the workspace 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Slack
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.
@@ -38,8 +36,7 @@ The App (which credentials are provided) needs to be installed in the workspace 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operations
 
 1. **[List Members](#list-members)**

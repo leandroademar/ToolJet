@@ -10,8 +10,7 @@ The **Range Slider** component is widely used across different UIs. One of the m
 Range Sliders have **Two handles** option which allows users to select a range.
 :::
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"150px"}}> Description </div> | 
@@ -23,16 +22,14 @@ Range Sliders have **Two handles** option which allows users to select a range.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no CSA (Component-Specific Actions) implemented to regulate or control the component.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables  </div>  | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -41,8 +38,7 @@ There are currently no CSA (Component-Specific Actions) implemented to regulate 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -52,8 +48,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Devices
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -63,8 +58,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ---
 
 ## Styles

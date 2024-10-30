@@ -11,8 +11,7 @@ Permissions in **ToolJet Workflows** provide a structured approach to access con
 | **Groups with App Editing Permissions** | ❌           | ❌      | ✅       | ✅          | ❌          |
 | **End Users**                          | ❌               | ❌      | ✅       | ❌          | ❌          |
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Admins
 **Admins** can create, edit, and manage workflows, access the workflow dashboard and flow builder, and use them in ToolJet's **App Builder**. They also have the option to use the **Enable** toggle on the top-right to enable or disable the execution of workflows in ToolJet applications.
 
@@ -22,8 +21,7 @@ Permissions in **ToolJet Workflows** provide a structured approach to access con
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Groups with App Editing Permissions
 **Groups with App Editing Permissions** can use the existing workflows in ToolJet's **App Builder**. 
 
@@ -38,8 +36,7 @@ While they can harness existing workflows and integrate them into app functional
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## End Users
 
 **End Users** can only execute workflows in the application. 

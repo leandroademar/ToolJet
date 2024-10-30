@@ -5,8 +5,7 @@ title: PDF
 
 The **PDF** component can be used to embed PDF files either by URL or through Base64 code.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Compatibility
 
 The PDF component is compatible with the following browser versions: <br/>
@@ -22,8 +21,7 @@ If the PDF component is integrated into your application, it will only render in
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"100px"}}> Description </div>                                                                                                                                                        |
@@ -35,24 +33,21 @@ If the PDF component is integrated into your application, it will only render in
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no CSA (Component-Specific Actions) implemented to regulate or control the component.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 There are currently no exposed variables for the component.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## General
 
 ### Tooltip
@@ -61,8 +56,7 @@ To display instructional text when a user hovers over the PDF component, add som
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Devices
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div>                                                                              |
@@ -74,8 +68,7 @@ To display instructional text when a user hovers over the PDF component, add som
 
 ---
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style </div> | <div style={{ width:"100px"}}> Description </div>                                                                                                                                                                                                               | <div style={{ width:"100px"}}> Default Value </div> |

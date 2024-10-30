@@ -2,7 +2,7 @@
 id: s3-custom-endpoints
 title: Use Custom Endpoint for S3 Hosts
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 In this how-to guide, we will see how we can connect to different **S3 compatible object storages** using the custom endpoint. In this guide, we are using Minio since it is an S3-compatible object storage. 
 

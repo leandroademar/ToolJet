@@ -5,8 +5,7 @@ title: Transforming Data for Charts
 
 This guide explains how to transform data using RunJS and RunPy in ToolJet and visualize it using the chart component. The chart component in ToolJet enables the creation of various types of charts, with the option to integrate with Plotly for enhanced customization and advanced visualizations. While ToolJet provides the ability to connect to multiple databases, APIs, and data sources for integration, this guide will focus on using ToolJet DB to fetch the required data.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Plotting a Simple Pie Chart
 
 To create a simple pie chart, the data has been stored in the table with the following structure in ToolJet DB:
@@ -80,8 +79,7 @@ This query will calculate the number of each course and return an array of objec
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Plotting a Line Chart with RunJS Transformation
 
 To create the line chart, the data has been stored in the table with the following structure in ToolJet DB:
@@ -162,8 +160,7 @@ return finalData;
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Plotting Candle Stick Chart Using Plotly
 
 To create a candlestick chart, the data has been stored in the table with the following structure in ToolJet DB:
@@ -243,8 +240,7 @@ return JSON.stringify(result)
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Plotting heatmap Chart Using Plotly
 
 To create a heatmap chart, the data has been stored in the table with the following structure in ToolJet DB:

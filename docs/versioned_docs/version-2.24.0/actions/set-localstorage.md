@@ -9,8 +9,7 @@ This action allows you to specify a `key` and its corresponding `value` to be st
 - Saving form values so that users don't accidentally lose them if they reload the page
 - Storing any kind of data that is not going to be transferred to the database
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Example: Setting a Component Value Based on Local Storage
 
 1. Add **Text Input**, **Button** and **Text** components to the canvas.

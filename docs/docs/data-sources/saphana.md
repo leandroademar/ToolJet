@@ -5,8 +5,7 @@ title: SAP HANA
 
 ToolJet can connect to SAP HANA databases to read and write data. 
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the SAP HANA datasource, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page through the ToolJet dashboard.
@@ -26,8 +25,7 @@ Please make sure the **Host/IP** of the database is accessible from your VPC if 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying SAP HANA
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.

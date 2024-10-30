@@ -9,8 +9,7 @@ Styling components in ToolJet is a straightforward yet powerful way to enhance t
     <iframe width="560" height="315" src="https://www.youtube.com/embed/UGhiRt5kaBI?si=MxGIPixTSVTxXtYS&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styling Options
 The styling options in ToolJet are designed to be intuitive, eliminating the need for extensive CSS or design experience. You can easily change the background color of a button, adjust the font size of a text field, or add padding and margins to layout components. These styling changes are immediately reflected on the canvas, providing real-time feedback as you build your application. 
 
@@ -20,8 +19,7 @@ The styling options in ToolJet are designed to be intuitive, eliminating the nee
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Custom CSS 
 By injecting **Custom CSS**, users can easily override default styles, offering a straightforward and efficient approach to visual customization. To add Custom Styles, users can navigate to the **Custom styles** tab under Workspace Settings in the ToolJet dashboard. For instance, changing the default color of a button involves identifying the component's class and applying the desired CSS changes on the Custom Styles page. This approach ensures that all instances of the app reflect the new styling, like changing button colors, without the need to edit each button individually. This ensures consistent theming across the workspace.
 

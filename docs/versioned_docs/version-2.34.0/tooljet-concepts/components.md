@@ -11,8 +11,7 @@ Components in ToolJet serve as the building blocks for creating applications. Th
 
 These components range from basic UI elements like buttons, text fields, and tables, to more complex elements like kanban, charts, and maps. By using components, you can quickly assemble a functional and visually appealing application without having to write code from scratch.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Customizing Components
 
 Components are highly customizable and interactive. Once you place a component on the canvas, you can easily modify its properties, styles, and behaviors through the properties panel on the right side of the App-Builder. This allows you to make your application dynamic and responsive. 
@@ -23,8 +22,7 @@ Components are highly customizable and interactive. Once you place a component o
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Using Components With Data
 
 In ToolJet, components can be easily connected to various data sources like databases, APIs, and third-party services through **[queries](what-are-queries)**. Once the data is fetched, you can bind it to components like tables, charts, and more. 
@@ -35,8 +33,7 @@ In ToolJet, components can be easily connected to various data sources like data
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Custom Components
 
 ToolJet allows for the creation of custom components using React. This feature is invaluable for developers who require functionalities beyond the 45+ built-in components that ToolJet offers. To create a custom component, you can drag and drop a **[Custom Component](/docs/widgets/custom-component/)** on the canvas and configure its data and code. 

@@ -5,8 +5,7 @@ title: DynamoDB
 
 **DynamoDB** is a managed non-relational database service provided by Amazon. ToolJet has the capability to connect to DynamoDB for reading and writing data.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the **DynamoDB** data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data sources](/docs/data-sources/overview)** page through the ToolJet dashboard.
@@ -54,8 +53,7 @@ If you prefer to use an **AWS ARN Role**, you will need to provide the following
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying DynamoDB
 
 To perform queries on **DynamoDB**, click on the **+ Add** button in the query manager located at the bottom panel of the editor. Select the previously added database as the data source for the query. Choose the desired operation and click on the **Run** button to run the query.

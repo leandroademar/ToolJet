@@ -15,8 +15,7 @@ If you are utilizing the self-hosted version of ToolJet, it is necessary to conf
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Properties   </div>   | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -29,8 +28,7 @@ If you are utilizing the self-hosted version of ToolJet, it is necessary to conf
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 | <div style={{ width:"135px"}}> Event Name    </div>    | <div style={{ width:"100px"}}> Description               </div>                    |
@@ -46,8 +44,7 @@ For detailed information about all the available **Actions**, please refer to th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of Map component can be controlled using the component specific actions(CSA):
@@ -58,8 +55,7 @@ Following actions of Map component can be controlled using the component specifi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 Exposed variables can be used to get data from the component.
@@ -78,8 +74,7 @@ Exposed variables can be used to get data from the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -87,8 +82,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -98,8 +92,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Properties </div>     | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |

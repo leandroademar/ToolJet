@@ -9,8 +9,7 @@ ToolJet allows you to create multi-page applications. By using the **Pages** pan
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pCpiWXp98tU?si=hzK-jvsynUwms4mU&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Managing Pages
 The Pages panel provides several options for managing your pages. You can add new pages by clicking the `+` button on the Pages header. Each new page can be named and customized. The Settings option lets you hide the page navigation sidebar. Additionally, the Pages panel also offers various page-specific options like renaming, marking a page as the home page, hiding or duplicating pages, and adding event handlers.
 
@@ -20,8 +19,7 @@ The Pages panel provides several options for managing your pages. You can add ne
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Advanced Page Features
 ToolJet's Pages panel also includes advanced features like Page Handle, which is the unique slug at the end of the application URL, and can be customized. Pages can be set as the default landing (home) page, or hidden from the page navigation menu. You can duplicate pages, making exact copies for different uses or even add event handlers. Furthermore, pages can be disabled or deleted, with certain restrictions like the inability to delete a home page. 
 

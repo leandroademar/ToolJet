@@ -12,8 +12,7 @@ Circular Progressbar widget can be used to show progress in a progress circle.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 :::info
@@ -27,24 +26,21 @@ Any property having `Fx` button next to its field can be **programmatically conf
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no CSA (Component-Specific Actions) implemented to regulate or control the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 There are currently no exposed variables for the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -54,8 +50,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> |
@@ -65,8 +60,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |

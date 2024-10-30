@@ -11,8 +11,7 @@ ToolJet connects to your Engagespot account, allowing you to send notifications,
 **NOTE:** **Before following this guide, it is assumed that you have already completed the process of [Using Marketplace plugins](/docs/marketplace/marketplace-overview#using-marketplace-plugins)**.
 :::
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Connection
 
 - Establish a connection to Engagespot by either clicking `+Add new Data source` on the query panel or navigating to the [Data Sources](/docs/data-sources/overview/) page from the ToolJet dashboard.
@@ -32,8 +31,7 @@ You can change your Engagespot BaseURL by enable custom endpoint.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Querying Engagespot
 
 Click on `+Add` button of the [query manager](/docs/app-builder/query-panel/#query-manager) and select the data source added in the previous step as the data source. Select the operation that you want to perform, fill in the required parameters and click on **Run** button to run the query.
@@ -52,8 +50,7 @@ Query results can be transformed using transformations. Read our [transformation
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Query Operations
 
 You can create query for Engagespot data source to perform several actions such as:
@@ -63,8 +60,7 @@ You can create query for Engagespot data source to perform several actions such 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create OR Update User
 
   #### Required Parameters:
@@ -81,8 +77,7 @@ The user profile column accepts any key-value pairs in valid JSON object format.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Send Notification
 
   #### Required Parameters:
@@ -96,8 +91,7 @@ The user profile column accepts any key-value pairs in valid JSON object format.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Generate User Token
 
   #### Required Parameters:
@@ -114,8 +108,7 @@ To generate user tokens, ensure you provide a Signing Key when establishing a co
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Adding the In-App Inbox element to your Tooljet app
    To set up an In-App Inbox element in your ToolJet application, refer to the [Adding In-App](https://docs.engagespot.co/docs/plugins/tooljet/adding-the-inbox-component) guide.
 

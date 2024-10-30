@@ -8,8 +8,7 @@ Workspace Constants in ToolJet help in maintaining consistency and security acro
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/rwXruKCUOqA?si=u3Cly11OeRYjqVmf&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Environment-Specific Configurations and Security
 One of the key functionalities of Workspace Constants is allowing environment-specific configurations. This is particularly useful for managing sensitive data such as API keys and database credentials securely. The Constants ensure that such critical information is effectively managed across different environments like development, staging, and production. Moreover, to enhance security, Workspace Constants are resolved server-side. This means the actual values of the constants are not sent with network payloads; instead, the server resolves these values, thereby keeping them secure from client-side exposure.
 
@@ -19,8 +18,7 @@ One of the key functionalities of Workspace Constants is allowing environment-sp
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Access Control and Usage in Application Development
 Access to creating, updating, or deleting Workspace Constants is restricted to Admins, ensuring tight control over these critical values. All users with editing permissions in the app builder and global datasource connection can utilize these constants, promoting consistent usage across various application components. The syntax for using a Workspace Constant is straightforward: `{{constants.constant_name}}`. This uniform approach simplifies the application building process, making it more efficient and secure.
 

@@ -5,8 +5,7 @@ title: InfluxDB
 
 ToolJet can connect to InfluxDB databases to read and write data. Use the Token authentication scheme to authenticate to the InfluxDB API. For more info visit [InfluxDB docs](https://docs.influxdata.com/).
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 ToolJet connects to InfluxDB using :
@@ -28,8 +27,7 @@ For generating API Token visit [InfluxDB docs](https://docs.influxdata.com/influ
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Queries
 
 - **[Write data](#write-data)**

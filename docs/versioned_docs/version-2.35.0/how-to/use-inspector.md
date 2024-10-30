@@ -2,7 +2,7 @@
 id: use-inspector
 title: Use Inspector in App-Builder
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 This guide introduces **Inspector** in the app-builder, a feature that lets you view data related to queries, components, global variables, page-related variables, user-set variables and constants.
 
@@ -12,8 +12,7 @@ This guide introduces **Inspector** in the app-builder, a feature that lets you 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Sections
 
 The Inspector panel has 6 main sections:
@@ -27,24 +26,21 @@ The Inspector panel has 6 main sections:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Queries
 
 Queries allow you to inspect the specifics of your queries. However, the data related to these queries will only be visible after they have been executed or triggered.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Components
 
 Under Components, you can view and analyze the properties and values of the components you've added to the canvas, providing insights into how each component functions within your app.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Globals
 
 Globals give you access to global information related to the app. 
@@ -64,23 +60,20 @@ All the global variables can be accessed anywhere within ToolJet applications. H
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Variables
 
 Variables shows user-defined variables in a key-value format. These variables, set through event handlers or queries, are accessible across the entire application. You can set variables from the [event handler](/docs/actions/set-variable) or using [JavaScript code](/docs/how-to/run-actions-from-runjs#set-variables).
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Page
 Page lets you view page-specific properties like page name, handle and variables. Page variables are restricted to their respective pages and are not accessible application-wide.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Constants
 
 Under **[Constants](/docs/org-management/workspaces/workspace_constants/)**, you can find the predefined values (usually tokens/secret keys/API keys) that can be used across your application to maintain consistency and facilitate easy updates. 

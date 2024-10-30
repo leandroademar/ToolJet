@@ -9,8 +9,7 @@ Use the ToolJet-hosted database to build apps faster, and manage your data with 
     <img style={{ border:'0', marginBottom:'15px', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/v2-beta/database/ux2/tjdb.png" alt="ToolJet database" />
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Enabling the ToolJet Database for your instance
 
 Requires:
@@ -19,8 +18,7 @@ Requires:
 
 This feature is only enabled if [`ENABLE_TOOLJET_DB`](/docs/setup/env-vars#enable-tooljet-database--optional-) is set to `true`.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### PostgREST Server
 
 PostgREST is a standalone web server that turns your PostgreSQL database directly into queryable RESTful APIs which is utilized for Tooljet Database. This server only talks with ToolJet server and therefore does not have to be publicly exposed.
@@ -67,8 +65,7 @@ Incase you want to trigger it manually, use the command `npm run db:create` on T
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Features
 
 ToolJet database allows you to:
@@ -80,8 +77,7 @@ ToolJet database allows you to:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Accessing ToolJet Database
 
 Once you log-in to your ToolJet account, from the left sidebar of the dashboard you can navigate to **ToolJet Database**.
@@ -94,8 +90,7 @@ The ToolJet Database is available on: **[ToolJet Cloud](https://tooljet.com)**, 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Database Editor
 
 You can manage the ToolJet Database directly from the Database Editor. ToolJet Database organizes the data into **tables** that can have different structures. All the tables will be listed lexicographically on the left, click on any of the table to view the table data.
@@ -112,8 +107,7 @@ The sidebar on the left can also be collapsed to give more space to the database
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create New Table
 
 For creating a new table in ToolJet Database, click on the **Create New Table** button on the top left corner of the Database editor.
@@ -134,8 +128,7 @@ When the **Create New Table** button is clicked, a drawer opens up from the righ
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Supported Data Types
 
 | <div style={{ width:"100px"}}> Data Type </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"100px"}}> Example </div> |
@@ -153,8 +146,7 @@ When the **Create New Table** button is clicked, a drawer opens up from the righ
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Search Table
 
 Open the Search bar by clicking on the **Search** button and search for a table in the ToolJet database by entering the table name.
@@ -165,8 +157,7 @@ Open the Search bar by clicking on the **Search** button and search for a table 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Rename Table
 
 To rename a table, click on the kebab menu icon on the right of the table name and then select the **Rename table** option. A drawer will open from the right from where you can edit the table name.
@@ -177,8 +168,7 @@ To rename a table, click on the kebab menu icon on the right of the table name a
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Add New Column
 
 To add a new column on a table, either click on the kebab menu icon on the right of the table name and then select the **Add new column** option or click on the **+** button present at the end of the column header.
@@ -200,8 +190,7 @@ A drawer from the right will open up where you can enter the details for the new
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Export Schema
 
 The export schema option allows you to download the selected table schema in a JSON file. This does not export the table data.
@@ -216,8 +205,7 @@ To export the table schema, click on the three vertical dots icon on the right o
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Table
 
 To delete a table, click on the three vertical dots icon on the right of the table name and then click on the **Delete** option. A confirmation modal will appear, click on the **Delete** button to delete the table.
@@ -228,8 +216,7 @@ To delete a table, click on the three vertical dots icon on the right of the tab
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Edit Column
 
 To edit a column, click on the kebab menu on the column name and select the option to **Edit column**. When you edit the column, the data type cannot be changed.
@@ -240,8 +227,7 @@ To edit a column, click on the kebab menu on the column name and select the opti
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Column
 
 To delete a column, click on the kebab menu on the column name and select the option to **Delete**.
@@ -252,8 +238,7 @@ To delete a column, click on the kebab menu on the column name and select the op
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Add New Data
 
 The Add new data button on the top of the table editor allows you to add data to the table. You can either **[Add new row](#add-new-row)** or **[Bulk upload data](#bulk-upload-data)** to add the data to the table.
@@ -264,8 +249,7 @@ The Add new data button on the top of the table editor allows you to add data to
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Add New Row
 
 To add a new row on a table, either click on the `Add new data` button on top and then select the **Add new row** option or click on the **+** button present at the bottom left.
@@ -282,8 +266,7 @@ A drawer from the right will open up where the values for the new row can be pro
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Edit Row
 
 To edit a row, hover on the row that you want to edit and the expand icon will appear next to the checkbox of that row. Click on the Expand icon to open the drawer and edit the row.
@@ -294,8 +277,7 @@ To edit a row, hover on the row that you want to edit and the expand icon will a
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Edit a Cell
 
 1. **Double-Click**: Double-click on the cell you want to edit.
@@ -308,8 +290,7 @@ To edit a row, hover on the row that you want to edit and the expand icon will a
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Bulk Upload Data
 
 You can bulk upload data to the ToolJet database by clicking on the **Bulk upload data** button on the top of the database editor. On clicking the button, a drawer will open from the right from where you can upload a **CSV** file. This file is used to upsert records onto the table. If data for id column is missing it will insert new record with the row data else if id is present it will update the corresponding record with the corresponding row data.
@@ -332,8 +313,7 @@ Once the CSV file is ready, click on the file picker to select the file or drag 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Records
 
 To delete one or many records/rows, select on the checkbox at the right of the record or records that you want to delete. As soon as you select a single record, the button to delete record will appear on the top, click on the **Delete record** button to delete the selected records.
@@ -344,8 +324,7 @@ To delete one or many records/rows, select on the checkbox at the right of the r
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Filter
 
 You can add as many filter as you want into the table by clicking on the **Filter** button present on the top of the database editor.
@@ -377,8 +356,7 @@ You can add as many filter as you want into the table by clicking on the **Filte
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Sort
 
 To sort the table data, click on the **Sort** button on top, select a **column** from the dropdown, and then choose an order **ascending** or **descending**.
@@ -389,8 +367,7 @@ To sort the table data, click on the **Sort** button on top, select a **column**
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Querying Data from the ToolJet Database
 
 Querying ToolJet database is as easy as querying any other datasource on ToolJet.
@@ -416,12 +393,10 @@ Querying ToolJet database is as easy as querying any other datasource on ToolJet
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Available Operations
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### List Rows
 This operation returns all the records from the table
 
@@ -432,8 +407,7 @@ This operation returns all the records from the table
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create row
 This operation creates a new record in the table. You can create a single record or multiple records at once.
 
@@ -442,8 +416,7 @@ This operation creates a new record in the table. You can create a single record
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Update Row
 This operation updates a record in the table. You can update a single record or multiple records at once.
 
@@ -453,8 +426,7 @@ This operation updates a record in the table. You can update a single record or 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Row
 This operation deletes a record in the table. You can delete a single record or multiple records at once.
 
@@ -464,8 +436,7 @@ This operation deletes a record in the table. You can delete a single record or 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Join Tables
 
 You can join two or more tables in the ToolJet database by using the **Join** operation.

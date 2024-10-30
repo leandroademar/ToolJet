@@ -6,8 +6,7 @@ title: Datepicker
 
 The Datepicker widget allows users to select a single value for date and time from a pre-determined set.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Property  </div>    | <div style={{ width:"100px"}}> Description </div> |
@@ -27,8 +26,7 @@ Now user won't be able to select the mentioned date since it will be disabled.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 To add an event to a date-picker component, click on the widget handle to open the widget properties on the right sidebar. Go to the **Events** section and click on **+ Add handler**.
@@ -43,16 +41,14 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no CSA (Component-Specific Actions) implemented to regulate or control the component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables </div>  | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -61,8 +57,7 @@ There are currently no CSA (Component-Specific Actions) implemented to regulate 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Validation
 
 ### Custom Validation
@@ -76,8 +71,7 @@ Example of validation for selecting dates that are after the current date:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -87,8 +81,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -98,8 +91,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Default Value </div> |

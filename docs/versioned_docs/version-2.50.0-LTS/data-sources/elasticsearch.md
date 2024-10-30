@@ -25,8 +25,7 @@ Elastic search data source is also providing an option for connecting services w
   
 <img className="screenshot-full" src="/img/datasource-reference/elasticsearch/ssl-v3.png" alt="Elastic ssl" />
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Elasticsearch 
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.

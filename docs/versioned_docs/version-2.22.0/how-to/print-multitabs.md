@@ -11,8 +11,7 @@ In this guide, we will learn how to print data from multiple tabs in ToolJet. Th
 
 Build an app with a set of tabs for each record. Each tab will have a set of fields to display the invoice details. In the example below, we have tabs component and each tab has a set of fields to display the record details.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 **Dropdown**: For selecting a specific patient whose data user want to load in the tabs. 
 
 **Tabs**: Each tab represents different type of medical record for the selected patient. For this app, we have 5 tabs for each patient. Each tab has a id starting from 0 to 4.
@@ -27,8 +26,7 @@ Build an app with a set of tabs for each record. Each tab will have a set of fie
 
 ## Load data from database
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 For this app, we are using tooljet database with table name `patient_data`. We created a query called `getPatientList` to fetch data from the database.
 
 <div style={{textAlign: 'center'}}>
@@ -43,8 +41,7 @@ Once the data is successfully loaded on the tabs and the app is working as expec
 
 To print data from multiple tabs, we will create few javascript queries. Using event handlers, we will run these javascript queries in a sequence to print data from all the tabs. 
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 Before we start creating the javascript queries, we need to add a few events to the button component:
 
 | Event | Action | Description |
@@ -72,8 +69,7 @@ if ((variables?.tabIndex ?? undefined) == undefined) {
 }
 ```
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 **This query will have 3 events:**
 
 #### 1. Query Success:
@@ -86,8 +82,7 @@ For the first Query Success event, we will add a `Control component` action whic
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 #### 2. Query Success:
 
 For the second Query Success event, we will select `Run Query` action which will `Run only if` `{{parseInt(variables.tabIndex) < 5}}` is true. The query for this event handler will be `getTabsHTML`. We will also add a `debounce` of `100` milliseconds to this event handler.
@@ -100,8 +95,7 @@ For the second Query Success event, we will select `Run Query` action which will
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 #### 3. Query Success:
 
 For the third Query Success event, we will select `Run Query` action which will `Run only if` `{{parseInt(variables.tabIndex) === 5}}` is true. The query for this event handler will be `printPDF`. This action will only run when the `tabIndex` is equal to 5, i.e. the last iteration of the loop and we will print the data from all the tabs in this iteration.
@@ -136,8 +130,7 @@ actions.setVariable( // set tabsHtml variable
 );
 ```
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 **This query will have 1 event:**
 
 #### 1. Query Success:
@@ -152,8 +145,7 @@ This event will have an action to `Run Query` named `viewTabs`. This will run th
 
 Now that we have created the `getTabsHTML` query, we can go to the [viewTabs](/docs/how-to/print-multi-tabs-report#2-query-success) query and add the `getTabsHTML` query to the `Query Success` event handler.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### printPDF query
 
 The `printPDF` query is a JavaScript query that generates a printable document from the HTML content stored in the `tabsHtml` variable. This query will open a new window and write the HTML content of all the tabs. This will allow the user to download a PDF document that includes the formatted content of all the tabs.
@@ -189,8 +181,7 @@ winPrint.print();
 winPrint.close();
 ```
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 **This query will have 3 events:**
 
 #### 1. Query Success:
@@ -203,8 +194,7 @@ This event will have an action to `Unset Variable` named `tabsIndex`. This will 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 #### 2. Query Success:
 
 This event will have an action to `Unset Variable` named `tabsHtml`. This will unset the `tabsHtml` variable after the `printPDF` query is successfully executed.
@@ -215,8 +205,7 @@ This event will have an action to `Unset Variable` named `tabsHtml`. This will u
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 #### 3. Query Success:
 
 This event will have an action to `Control component`. This will control the `Tabs` component to `Set current tab` to `{{variables.lastSelectedTab}}` after the `printPDF` query is successfully executed. This will set the current tab to the tab that was selected before the `Download` button was clicked.
@@ -227,8 +216,7 @@ This event will have an action to `Control component`. This will control the `Ta
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 Now that we have created the `printPDF` query, we can go to the [viewTabs](/docs/how-to/print-multi-tabs-report#3-query-success) query and add the `printPDF` query to the `Query Success` event handler.
 
 Finally, we can test the app by selecting a patient and clicking on the `Download` button. This will download a PDF document with the data from all the tabs.

@@ -13,8 +13,7 @@ Certain components are restricted from being placed within the **Card** and **Po
 - **Popout**: Calendar, Kanban
 :::
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Setting Card Data
 
 To dynamically populate Kanban cards, you can use the `cardData` key.
@@ -28,8 +27,7 @@ For instance, you can set the `Data` property of a Text component on a card usin
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 :::info
@@ -48,8 +46,7 @@ For instance, you can set the `Data` property of a Text component on a card usin
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 To add an event, click on the component handle to open the component properties on the right sidebar. Go to the **Events** section and click on **Add handler**.
@@ -73,8 +70,7 @@ Check the **[Component Specific Action](#component-specific-actions-csa)** avail
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variable </div>| <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -89,8 +85,7 @@ Check the **[Component Specific Action](#component-specific-actions-csa)** avail
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of Kanban component can be controlled using the component specific actions(CSA):
@@ -104,8 +99,7 @@ Following actions of Kanban component can be controlled using the component spec
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -115,8 +109,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -126,8 +119,7 @@ Under the <b>General</b> accordion, you can set the value in the string format. 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style  </div>      | <div style={{ width:"100px"}}> Description  </div>                                                                                                                                                                 |

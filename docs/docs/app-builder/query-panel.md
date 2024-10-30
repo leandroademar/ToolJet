@@ -11,8 +11,7 @@ The Query Panel consists of two sections:
 
 <img className="screenshot-full" src="/img/v2-beta/app-builder/querypanel/newui3/qpanel-v2.png" alt="Query Panel" />
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Query Manager
 
 The Query Manager on the left lists all the queries that have been created in the application. Query Manager helps in managing the queries that have been created.
@@ -44,8 +43,7 @@ The edit button lets you rename the query, the delete button lets you delete the
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Query Editor
 
 Query Editor provides the functionality to construct queries either through a low-code interface or by manually entering the query text.

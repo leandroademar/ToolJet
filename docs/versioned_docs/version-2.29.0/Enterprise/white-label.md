@@ -39,8 +39,7 @@ To enable white labelling, you'll need to go to the **Settings** from the Dashbo
     <img style={{ marginBottom:'15px'}} className="screenshot-full" src="/img/enterprise/white-label/whitelabelsettings.png" alt="ToolJet - Enterprise - White label" />
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## ToolJet Cloud
 
 If you are using ToolJet Cloud, you can enable white labelling by going to the **Settings** from the Dashboard and clicking on the `White labelling` tab. On the White labelling page, you'll be able to configure the following:

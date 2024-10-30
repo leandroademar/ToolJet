@@ -5,8 +5,7 @@ title: Importing and Exporting Applications
 
 This documentation explains the process of exporting and importing applications in ToolJet.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## 1. Exporting Applications
 
 - Navigate to the dashboard.
@@ -26,8 +25,7 @@ This documentation explains the process of exporting and importing applications 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## 2. Importing Applications
 
 - Navigate to the dashboard.

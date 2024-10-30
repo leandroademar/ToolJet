@@ -3,14 +3,13 @@ id: use-server-side-pagination
 title: Using Server Side Pagination in Tables
 ---
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 In this guide, we will implement server-side pagination for large datasets in a table component to enhance application performance. This guide is applicable for databases like MySQL, PostgreSQL, MSSQL, MongoDB, etc., supporting `limit` and `offset` for chunked data retrieval.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Loading Data from PostgreSQL in Chunks
 
 To fetch data in chunks from a PostgreSQL table `users`, use `limit` and `offset` in the SQL query:
@@ -42,8 +41,7 @@ FROM users;
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Edit the Table Component
 
 **Follow the steps below to edit the properties of the Table component:**

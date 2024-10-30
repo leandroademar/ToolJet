@@ -5,8 +5,7 @@ title: Pass Values in a REST API Query
 
 This guide gives you an overview of how you can pass values in a REST API Query using raw JSON and key-value pairs.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Raw JSON 
 
 In the following JSON code, the `${}` syntax is used for JavaScript string interpolation within template literals (also called template strings). This allows dynamic values from JavaScript variables or expressions to be injected directly into the string.
@@ -37,8 +36,7 @@ In the following JSON code, the `${}` syntax is used for JavaScript string inter
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Entering Key Value Pairs
 
 In this example, simple key-value pairs are entered in the provided input fields. Here, the values can simply be passed using double curly braces as is typically done in ToolJet. Take note of the status key. A string is combined with another value that is referred using double curly braces.

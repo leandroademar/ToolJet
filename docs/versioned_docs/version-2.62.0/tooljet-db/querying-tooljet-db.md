@@ -19,12 +19,10 @@ The selected operation should adhere to the column constraints of the selected t
 </div>
 
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Available Operations
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### List Rows
 This operation returns all the records from the table.
 
@@ -35,8 +33,7 @@ This operation returns all the records from the table.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create row
 This operation creates a new record in the table. You can create a single record or multiple records at once.
 
@@ -45,8 +42,7 @@ This operation creates a new record in the table. You can create a single record
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Update Row
 This operation updates a record in the table. You can update a single record or multiple records at once.
 
@@ -56,8 +52,7 @@ This operation updates a record in the table. You can update a single record or 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Row
 This operation deletes a record in the table. You can delete a single record or multiple records at once.
 
@@ -78,8 +73,7 @@ When you are creating, updating, or deleting records in a table that has a forei
 
 - Similarly, if you are trying to delete a row in the target table, you need to ensure that the foreign key value is not being referenced in the source table.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Join Tables
 
 You can join two or more tables in the ToolJet database by using the **Join** operation.

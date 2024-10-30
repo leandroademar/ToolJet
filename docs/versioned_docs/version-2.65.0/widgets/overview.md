@@ -7,8 +7,7 @@ title: Overview
 
 Components are used to build the user interface(UI) of the applications. They can be dragged onto the canvas from the **Component Library** and can be modified from the **Properties Panel** without needing to write any code. **[Event Handlers](/docs/widgets/overview#component-event-handlers)** in Components allow end users to trigger queries and other application events to perform the **[Actions](/docs/category/actions-reference)**.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Adding Components
 
 Components can be dragged and dropped from the **Component Library**(from the right side on app builder) on to the canvas. You can reposition components by clicking and dragging them around the canvas. To resize a component, drag its edges or borders.
@@ -21,8 +20,7 @@ Components can be dragged and dropped from the **Component Library**(from the ri
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Select Multiple Components
 
 You can use **Shift+Click** to select and group multiple components together. Once grouped, the components can be moved around the canvas while maintaining their relative positions.
@@ -47,16 +45,14 @@ You can also use many other **[Keyboard Shortcuts](/docs/tutorial/keyboard-short
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Component Properties
 
 Components can be customized and styled using the **Properties Panel** such as the data field, a toggle for disabling the component, or styling like a background color. Properties can be modified directly or programmatically by using **[Bindings](/docs/widgets/overview/#bindings)**, which enables you to write JavaScript code.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Event Handlers
 
 Event Handlers can be found in the Component's **Property Panel** or in the **Advanced** section of the Query. Event handlers can be used to trigger **[Actions](/docs/category/actions-reference)** such as executing the queries, performing Component Specific Actions(CSA) or for setting a variable.
@@ -77,8 +73,7 @@ Event handlers for components have the following properties:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Using Run only if
 
 With this option in Event Handlers, users can specify a condition that must be met before the event handler's action is executed. This allows for more fine-grained control over when certain actions should be triggered in response to component events.
@@ -112,8 +107,7 @@ or
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Bindings
 
 Bindings allow you to get dynamic data into the components. Anything inside of **`{{}}`** is evaluated as a JavaScript expression in ToolJet.

@@ -9,8 +9,7 @@ The **Run JavaScript code** query in ToolJet enables users to write and execute 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ySlDSuulHn8?si=0PLsANxkdwzIySIf&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Interacting with Components and Actions
 The JavaScript code you write can interact with various components of the ToolJet application. For example, you could attach an event handler to a button so that when it's clicked, it triggers Run Javascript code to run. Additionally, you can construct the JavaScript code to manipulate the properties of other components. This allows for dynamic interactions within your application.
 
@@ -20,8 +19,7 @@ The JavaScript code you write can interact with various components of the ToolJe
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Advanced Features and Libraries
 Run JavaScript code also supports advanced functionalities such as setting and unsetting variables, showing or closing modals, copying content to the clipboard, and even logging out users. This is done by using specific syntax and functions. Moreover, you can utilize libraries like Moment, Lodash, and Axios for more complex operations.
 

@@ -3,7 +3,7 @@ id: athena
 title: Athena
 ---
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ToolJet can connect to **Amazon Athena** which is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL.
 
@@ -13,8 +13,7 @@ ToolJet can connect to **Amazon Athena** which is an interactive query service t
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the **Amazon Athena** data source, you can either click on the **+Add new Data source** button located on the query panel or navigate to the **[Data Sources](https://docs.tooljet.com/docs/data-sources/overview)** page from the ToolJet dashboard and choose **Amazon Athena** as the data source.
@@ -41,8 +40,7 @@ You can also configure for **[additional optional parameters](https://github.com
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Querying Amazon Athena
 
 - Click on the **+Add** button of the query manager at the bottom panel of the editor and select the database added in the previous step as the data source. Query manager then can be used to write SQL queries.
@@ -61,8 +59,7 @@ You can also configure for **[additional optional parameters](https://github.com
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Basic Queries
 
 #### Creating Table 

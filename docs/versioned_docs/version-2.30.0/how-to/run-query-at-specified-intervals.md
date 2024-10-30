@@ -77,8 +77,7 @@ Drag a button on the canvas to act as a user-triggered stop mechanism. Attach an
  <img style={{ border:'0', marginBottom:'15px', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/how-to/setinterval/clearint.png" alt="Table Component With Data" />
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 By following these steps, your ToolJet application will dynamically fetch data at specified intervals, providing an efficient and automated user experience.
 
 </div>

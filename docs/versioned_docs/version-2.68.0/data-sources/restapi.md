@@ -5,8 +5,7 @@ title: REST API
 
 ToolJet can establish connections with any available REST API endpoint, allowing you to create queries and interact with external data sources seamlessly.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the REST API data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page through the ToolJet dashboard.
@@ -41,8 +40,7 @@ ToolJet requires the following to connect to a REST API data source:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Retry on Network Errors
 
 ToolJet provides an option to automatically retry REST API requests in case of certain network errors or specific HTTP status codes. By default, this feature is enabled and will retry the request up to 3 times in case of failure. This feature can be toggled on or off at both the data source level and the individual query level. When enabled, retries will occur for the following scenarios:
@@ -74,8 +72,7 @@ If the data source-level configuration is enabled but a specific query has it di
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying REST API
 
 Once you have connected to the REST API data source, follow these steps to write queries and interact with a REST API in the ToolJet application:
@@ -100,8 +97,7 @@ ToolJet supports the following REST HTTP methods
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Additional header
 
 Whenever a request is made to the REST API, a **tj-x-forwarded-for** header is added to the request, the value of the header will be the IP address of the user who is logged in to the ToolJet application. This header can be used to identify the user who is making the request to the REST API.
@@ -110,8 +106,7 @@ Whenever a request is made to the REST API, a **tj-x-forwarded-for** header is a
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Cookies
 
 In addition to the data source level cookies, you can add query-specific cookies in the Query builder. These cookies will be sent only with the specific query created using this data source instance.
@@ -134,8 +129,7 @@ Query-specific cookies will override data source level cookies with the same nam
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Request types
 
 The plugin will send a **JSON** formatted body by default. If you want to send a different type of body, you can enter the appropriate headers in the **Headers** section.
@@ -152,8 +146,7 @@ For example, to send a **multipart/form-data** body, you can add the following h
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Response types
 
 REST APIs can return data in a variety of formats, including **JSON** and **Base64**. JSON is a common format used for data exchange in REST APIs, while Base64 is often used for encoding binary data, such as images or video, within a JSON response.
@@ -236,8 +229,7 @@ Read the guide on **[loading base64 data](/docs/how-to/loading-image-pdf-from-db
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Metadata
 
 Metadata is additional information about the data returned by the REST API. This information includes the request URL, method, headers, and response status code, headers, and body. The metadata can be accessed within queries and components using the `{{queries.<queryname>.metadata}}` syntax.
@@ -295,8 +287,7 @@ While accessing the properties of the metadata object, which contains a hyphen, 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## OAuth 2.0 Method for Authenticating REST APIs
 
 ToolJet’s REST API data source supports OAuth 2.0 as the authentication type. Supported OAuth 2.0 grant types are Authorization Code and Client Credentials.
@@ -354,8 +345,7 @@ Let’s create a query to make a `GET` request to the URL, it will pop a new win
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Bearer Token Method for Authenticating REST APIs
 
 ToolJet’s REST API data source supports Bearer Token as the authentication type. Bearer Token is a security token that is issued by the authentication server to the client. The client then uses the token to access the protected resources hosted by the resource server.

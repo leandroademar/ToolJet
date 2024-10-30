@@ -7,8 +7,7 @@ title: Workspace Constants and Secrets
 
 Workspace constants and secrets are predefined values that can be used across your application to maintain consistency, facilitate easy updates, and securely store sensitive information. This document will guide you through the usage and management of workspace constants and secrets within your workspaces.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Types of Constants
 
 ToolJet offers two types of constants:
@@ -18,7 +17,7 @@ ToolJet offers two types of constants:
 
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## Characteristics and Usage
 
@@ -38,8 +37,7 @@ Secrets cannot be used in RunJS or RunPy queries.
 :::
 
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Environment-Specific Configurations
 
 Users can define environment-specific configurations by setting different values for constants and secrets across environments. This is useful for managing sensitive information such as API keys, database credentials, or external service endpoints which may vary between different environments. For example, you can set different API keys for development, staging, and production environments.
@@ -49,24 +47,21 @@ Users can define environment-specific configurations by setting different values
 <img style={{ border:'0', marginBottom:'15px', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/workspace-const/env-specific-const.png" alt="Environment-Specific Constants"/>
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Server-Side Resolution and Security
 
 Both workspace constants and secrets are resolved on the server side only. This ensures that sensitive data remains secure and is not exposed to the client-side. All constants and secrets are encrypted before being stored in the database, providing an additional layer of security.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Access Control
 
 Creating, updating, and deleting constants and secrets are exclusive privileges granted to **Admins**. Workspace constants and secrets are specific to the workspace where they are created and cannot be utilized in other workspaces.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Creating Workspace Constants and Secrets
 
 To create workspace constants or secrets, follow these steps:
@@ -89,7 +84,7 @@ Once a constant or secret is created, its type cannot be changed. You'll need to
 
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## Using Global Constants
 
@@ -121,8 +116,7 @@ You can use global constants in datasource connection forms and queries using th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Using Secrets
 
 Secrets are designed for secure storage of sensitive information like API keys, database credentials, and encryption keys.
@@ -150,7 +144,7 @@ Secrets cannot be used within the App Builder or workflows.
 
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## Best Practices
 

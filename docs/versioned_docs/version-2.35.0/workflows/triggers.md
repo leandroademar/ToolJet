@@ -9,16 +9,14 @@ Triggers can be used to execute a workflow. Currently, ToolJet supports two type
     <img style={{ border:'0', marginBottom:'15px', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/workflows/triggers/triggers.png" alt="Triggers" />
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Webhooks
 
 A webhook trigger allows you to run the workflow when a webhook is received. You can configure the webhook trigger from the Triggers tab. The webhook URL is unique for each workflow.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Creating a Webhook Trigger
 - Click on the **Triggers** option in the left panel to open the Triggers tab.
 
@@ -96,8 +94,7 @@ A webhook trigger allows you to run the workflow when a webhook is received. You
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Restrictions on Usage of Webhook Triggers
 
 There are certain restrictions on the usage of webhook triggers that are configurable, both at the instance level and at the workspace level depending on the license. The restrictions are as follows:
@@ -120,8 +117,7 @@ For Virtual Private Clouds (VPCs), restrict access only to the `{TOOLJET_HOST}/a
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Manual
 
 Manual triggers can be used to run a workflow manually from the ToolJet apps. Manual triggers work similar to the queries of a data source. You can add a trigger to an application from the query panel. 
@@ -134,8 +130,7 @@ In the application, simply click on the `+ Add` button in the query panel and se
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Passing Parameters
 
 Parameters can be passed to the workflow from the **Params** field in the query. The parameter `key` and their `value` can be specified in the **Params** field. For example, if you want to pass the `name` and `age` parameters to the workflow using the manual triggers, you can set the **Params** field as follows:

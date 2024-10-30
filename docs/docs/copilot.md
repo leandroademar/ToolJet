@@ -11,8 +11,7 @@ ToolJet Copilot is currently in private beta for **Business** and **Enterprise**
 
 **ToolJet Copilot** helps you write your queries faster. It uses OpenAI to suggest queries based on your data. 
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Activating Copilot
 
 To gain access to Copilot, all users, including administrators, can individually sign up for the waitlist program. Upon successful sign up, each user will be issued a distinctive API key linked to their account. However, the exclusive authority to activate Copilot within the workspace settings lies solely with administrators. Administrators can proceed to the Copilot section in the workspace settings, where they can utilize their respective API key to set the "Enable Copilot" toggle option.
@@ -31,8 +30,7 @@ You can join the waitlist here: **https://tooljet.com/copilot**
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Using Copilot
 
 Once activated, the Copilot feature can be accessed while editing any query within the transformations section in the query editor.
@@ -41,16 +39,14 @@ Copilot's functionality relies on the provision of clear and concise plain Engli
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Token Limit per Workspace
 
 A token is a unit of text that language models like ChatGPT process, such as a word or a character. To ensure fair usage and resource allocation among workspaces, a token limit is implemented. Currently, the token limit is set to **400**. If the token limit is surpassed, the request is declined with the message **"Unable to process request. Max tokens exceeded."**
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Rate-Limiting
 
 To prevent abuse or excessive usage of the Copilot API, rate-limiting measures are in place. The following rules apply:
@@ -65,8 +61,7 @@ When generating an API key, if a workspace has 5 editors, the daily request limi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Example: Generating a SQL statement 
 
 This example demonstrates the usage of copilot by generating a SQL query to fetch the order details from a PostgreSQL database based on the key provided in the REST API data.

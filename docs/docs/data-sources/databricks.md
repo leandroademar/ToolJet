@@ -9,8 +9,7 @@ Databricks is a cloud-based platform for data processing, analytics, and machine
     <img style={{ border:'0', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/datasource-reference/databricks/install.gif" alt="Install Databricks" />
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Configuration
 
 ToolJet's Databricks integration relies on a configuration form that supports the following parameters:
@@ -43,8 +42,7 @@ ToolJet's Databricks integration relies on a configuration form that supports th
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Databricks
 
 1. Click on + Add button of the query manager at the bottom panel of the editor.
@@ -65,8 +63,7 @@ You can apply transformations to the query results. Refer to our transformations
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Queries
 
 Databricks supports standard SQL commands for data manipulation tasks.

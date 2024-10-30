@@ -5,8 +5,7 @@ title: Run Actions from RunJS query
 
 ToolJet allows you to execute various [actions](/docs/actions/show-alert) within RunJS queries. This guide outlines the syntax and examples for each action.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Run Query 
 
 To trigger a query, you can use the below functions:
@@ -31,8 +30,7 @@ In the screenshot below, we are triggering two different queries using two diffe
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Get Query Data
 
 In the previous section, we saw how we can trigger queries. Once the queries are triggered, if you want to immediately use the data returned by the query inside the RunJS query, you can use the `getData()`, `getRawData()` and `getLoadingState()` functions:
@@ -69,8 +67,7 @@ let value = queries.getTodos.getLoadingState();
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Set Variables
 
 To create a variable, you can use the below function:
@@ -81,8 +78,7 @@ actions.setVariable('<variableName>', `<variableValue>`)
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Unset Variable
 
 To delete a created variable, you can use the below function:
@@ -95,8 +91,7 @@ actions.unSetVariable('<variableName>')
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Get Variables
 
 To access variables immediately after setting them in a RunJS query, you can use the `getVariable` and `getPageVariable` functions:
@@ -120,8 +115,7 @@ return actions.getPageVariable('number');
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Logout
 
 To log out the current logged-in user from the ToolJet, use the below function:
@@ -132,8 +126,7 @@ actions.logout();
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Show Modal
 
 To open a modal using RunJS query, use the below function:
@@ -144,8 +137,7 @@ actions.showModal('<modalName>')
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Close Modal
 
 To close a modal using RunJS query, use the below function:
@@ -156,8 +148,7 @@ actions.closeModal('<modalName>')
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Set Local Storage 
 
 Set a value in local storage using the below code:
@@ -170,8 +161,7 @@ actions.setLocalStorage('key', 'value');
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Copy to Clipboard
 
 Use the below code to copy content to the clipboard:
@@ -182,8 +172,7 @@ actions.copyToClipboard('<contentToCopy>')
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Generate File
 
 The below action can be used to generate a file.
@@ -214,8 +203,7 @@ actions.generateFile('Pdffile1', 'pdf', '{{components.table1.currentPageData}}')
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Go to App
 
 You can switch to a different application using the below action:
@@ -229,8 +217,7 @@ actions.goToApp('slug',queryparams)
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Show Alert
 
 To show an alert using RunJS query, use the below code:
@@ -248,8 +235,7 @@ actions.showAlert('error' , 'This is an error' )
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Run Multiple Actions From RunJS Query
 
 To run multiple actions from a RunJS query, you'll have to use **async-await** in the function.

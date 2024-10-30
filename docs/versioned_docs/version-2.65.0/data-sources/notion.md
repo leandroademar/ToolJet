@@ -5,8 +5,7 @@ title: Notion
 
 ToolJet can connect to a Notion workspace to do operations on notion pages, databases, users and blocks.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the Notion data source, click on the **+ Add new Data source** button located on the query panel or navigate to the [Data Sources](https://docs.tooljet.com/docs/data-sources/overview) page from the ToolJet dashboard.
@@ -21,8 +20,7 @@ For integrating Notion with ToolJet we will need the API token. The API token ca
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Notion
 
 Notion API provides support for:
@@ -58,8 +56,7 @@ Before querying Notion, you must share the database with your integration. Click
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Notion Database
 
 On database resource you can perform the following operations:
@@ -199,8 +196,7 @@ This operation updates an existing database as specified by the parameters.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Notion Page
 
 On page resource you can perform the following operations:
@@ -326,8 +322,7 @@ This operation archive or un archive the page specified using Page ID.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Notion Blocks
 
 The following operations can be performed on the block resource:
@@ -426,8 +421,7 @@ This operation updates the content for the specified block_id based on the block
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Notion User
 
 The following operations can be performed on the user notion resource:

@@ -20,8 +20,7 @@ ToolJet requires the following to connect to a REST API data source:
 - **[Authentication](#authentication)**
 - **[Secure Sockets Layer (SSL)](#secure-sockets-layer-ssl)**
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ### Credentials
 
 - **Base URL**: The base URL specifies the network address of the API service.
@@ -34,8 +33,7 @@ ToolJet requires the following to connect to a REST API data source:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ### Authentication
 
 :::info
@@ -62,8 +60,7 @@ ToolJet supports the following authentication types for REST API data sources:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ### Secure Sockets Layer (SSL)
 
 - **SSL Certificate**: SSL certificate to use with REST API requests. Supported Types:

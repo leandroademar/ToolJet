@@ -9,8 +9,7 @@ The **Form** component is designed to capture user input. It can act as a parent
 Components like **Kanban**, **Calendar**, **Modal**, **Container**, **ListView**, **Tabs**, and **Form** can't be dropped inside the Form component.
 :::
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Properties </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -25,8 +24,7 @@ If you need a step-by-step guide on using a **Form** component, you can checkout
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 To add an event to the **Form** component, go to the **Events** section and click on **Add handler**.
@@ -38,8 +36,7 @@ To add an event to the **Form** component, go to the **Events** section and clic
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of form component can be controlled using the Component Specific Actions(CSA):
@@ -51,8 +48,7 @@ Following actions of form component can be controlled using the Component Specif
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables </div>  | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -61,8 +57,7 @@ Following actions of form component can be controlled using the Component Specif
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Using Custom Schema
 
 To provide the form schema in JSON format, we'll pass a JavaScript object with **title**, **properties** and **submitButton**.
@@ -173,8 +168,7 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 ### Tooltip
 
@@ -186,8 +180,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -197,8 +190,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -211,8 +203,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"100px"}}> Description </div> |
@@ -221,8 +212,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Custom Schema Examples
 - **[Datepicker](#datepicker)**
 - **[Number Input](#number-input)**
@@ -242,8 +232,7 @@ A Tooltip is often used to specify the extra information when the user hovers th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Datepicker
 
 Properties that can be used in Datepicker schema are:
@@ -279,8 +268,7 @@ datepicker1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Number Input
 
 **Properties**
@@ -322,8 +310,7 @@ numberInput1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Password
 
 **Properties**
@@ -364,8 +351,7 @@ passwordInput1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Checkbox
 
 **Properties**
@@ -397,8 +383,7 @@ checkbox1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Toggle
 
 **Properties**
@@ -430,8 +415,7 @@ toggleswitch1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Text Area
 
 **Properties**
@@ -463,8 +447,7 @@ textArea1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Date Range Picker
 
 **Properties**
@@ -498,8 +481,7 @@ daterangepicker1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Multiselect
 
 **Properties**
@@ -535,8 +517,7 @@ multiselect1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Star Rating
 
 **Properties**
@@ -574,8 +555,7 @@ starRating1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### File Picker
 
 **Properties**
@@ -617,8 +597,7 @@ filepicker1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Text Input
 
 **Properties**
@@ -661,8 +640,7 @@ textinput1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Dropdown
 
 **Properties**
@@ -700,8 +678,7 @@ dropdown1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Button
 
 **Properties**
@@ -739,8 +716,7 @@ button1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Text
 
 **Properties**
@@ -772,8 +748,7 @@ text1: {
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Radio
 
 **Properties**

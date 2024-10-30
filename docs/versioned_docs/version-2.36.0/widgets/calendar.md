@@ -16,8 +16,7 @@ Certain components are restricted from being placed within the **Popout** of the
 - Calendar, Kanban.
 :::
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"100px"}}> Description </div> | 
@@ -27,8 +26,7 @@ Certain components are restricted from being placed within the **Popout** of the
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Events
 `Events` property should contain an array of objects, each of which describes the events that the calendar needs to display.
   
@@ -48,8 +46,7 @@ Assuming that you set the date format to `MM-DD-YYYY HH:mm:ss A Z`, setting the 
 ```
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Event Object Properties
 
 | <div style={{ width:"100px"}}> Name </div> | <div style={{ width:"100px"}}> Description </div> |
@@ -69,8 +66,7 @@ exposes any of the events via its exposed variables.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Resources
 
 Specifying resources will make the calendar categorize `week` view and `day` view for each of the resources specified.  
@@ -95,8 +91,7 @@ If we specify the `resourceId` of any of the events as `1`, then that event will
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Default View
 
 Determines whether the calendar would display a `day`, a `week` or a `month`. Setting this property to anything other than these values will make the calendar default to `month` view.
@@ -105,56 +100,49 @@ The view that is currently selected will be exposed as the variable `currentView
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Start Time on Week and Day View
 
 This determines the time at which week view and day view cells begins. Keep in mind that this field accepts a date, but still only the time and timezone(if provided) are taken from this date. The date should be provided in the date format chosen by you in the first property field.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### End Time on Week and Day View
 
 This determines the time at which week view and day view cells ends. Keep in mind that this field accepts a date, but still only the time and timezone(if provided) are taken from this date. The date should be provided in the date format chosen by you in the first property field.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Show Toolbar
 
 Determines whether the calendar toolbar should be displayed or not. Click on `Fx` button to programmatically determine the field value to `{{true}}` or `{{false}}`.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Show View Switcher
 
 Determines whether the calendar's buttons that allow user to switch between `month`, `week` and `day` level views will be displayed. Click on `Fx` button to programmatically determine the field value to `{{true}}` or `{{false}}`.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Highlight Today
 
 Determines whether the today's card on the calendar should be highlighted or not. Click on `Fx` button to programmatically determine the field value to `{{true}}` or `{{false}}`.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Show Popover When the Event is Clicked
 
 Determines whether to display a popover whenever an event is clicked. Click on `Fx` button to programmatically determine the field value to `{{true}}` or `{{false}}`.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 | Event | Description |
@@ -170,16 +158,14 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 There are currently no CSA (Component-Specific Actions) implemented to regulate or control the Calendar component.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | Variables      | Description |
@@ -191,8 +177,7 @@ There are currently no CSA (Component-Specific Actions) implemented to regulate 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## General
 #### Tooltip
 
@@ -200,8 +185,7 @@ A Tooltip is often used to specify extra information about something when the us
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"150px"}}> Description </div> | <div style={{ width:"250px"}}> Configuration Options </div>|
@@ -211,8 +195,7 @@ A Tooltip is often used to specify extra information about something when the us
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | Style | Description |

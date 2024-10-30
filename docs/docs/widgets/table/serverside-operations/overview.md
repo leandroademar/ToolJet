@@ -5,8 +5,7 @@ title: Overview
 
 This guide explains how to perform server-side operations on a table component in ToolJet.  While most databases offer support for server-side operations, the specific implementation can vary depending on the database. For the purposes of this guide, PostgreSQL will be used as the data source to demonstrate the process.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Server Side v/s Client Side
 
 Server-side operations refer to tasks executed on the server, such as data fetching, filtering, sorting, and pagination. These operations leverage the server's resources, making them more efficient when handling large datasets and ensuring faster load times for users. In contrast, client-side operations are performed in the user's browser or application, which may lead to performance issues with large datasets as all data is first fetched and then processed locally. Server-side operations offer better scalability and performance, especially for resource-intensive tasks.
@@ -25,8 +24,7 @@ Server-side operations refer to tasks executed on the server, such as data fetch
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operations
 
 Following server side operations can be performed on a Table in ToolJet:

@@ -17,8 +17,7 @@ Whether you're delving into data integration, generating detailed reports, or en
 You're currently exploring the beta version of ToolJet Workflows. Please be aware that this version is experimental, and is not recommended for production use at the moment.
 :::
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Quickstart Guide
 
 This introductory guide will help you understand the basics of ToolJet Workflows. We'll create a workflow that fetches the sales data from the database, transforms the data using JavaScript and sends an SMS notification to the Sales Manager using Twilio. The workflow will also conditionally return a success/failure message that can be used in a ToolJet Application to show a pop-up alert. 

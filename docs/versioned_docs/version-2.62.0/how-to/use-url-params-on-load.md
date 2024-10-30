@@ -2,7 +2,7 @@
 id: use-url-params-on-load
 title: Use URL Parameters on Page Load
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 In this guide, we will learn how to use URL parameters at the time of page load. The URL parameters are used to pass data from one page to another. Currently, we can add URL parameters in the following ways:
 
@@ -15,8 +15,7 @@ Let's take a look at an example below to understand how to use URL parameters on
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Using URL Parameters on Page Load to Execute REST API Queries
 
 Create two pages, `Home` and `Dashboard`. When a new app is created, a page named `Home` is created by default. Create a new page named `Dashboard` from the Pages menu in the left sidebar.
@@ -27,8 +26,7 @@ Create two pages, `Home` and `Dashboard`. When a new app is created, a page name
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Home and Dashboard Pages
 
 Add a form component to the `Home` page. The form component will have a text input fields and a button. The text input field will be used to enter the name and the button will be used to navigate to the `Dashboard` page. Let's name the text input field as `email` and the button as `Submit`. 
@@ -51,8 +49,7 @@ Now, on clicking the `Submit` button, the `Dashboard` page will be opened with t
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Queries and Binding Data
 
 In the `Dashboard` page, add two table components. We will be loading the data from two different REST API queries on these tables. 
@@ -106,8 +103,7 @@ checkAndRunQuery(5000);  // Check if URL parameters are available and run the RE
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Dashboard Page Event Handler
 
 - Finally, go to the Pages menu in the left sidebar and open the menu for the `Dashboard` page.

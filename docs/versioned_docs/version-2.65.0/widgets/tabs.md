@@ -15,8 +15,7 @@ If the builder attempts to add any of the aforementioned components inside the T
 `<Restricted component> cannot be used as a child component within the Tabs.`
 :::
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 ### Tabs
@@ -57,8 +56,7 @@ This property is enabled by default. When enabled, only the active tab will be r
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> |
@@ -71,8 +69,7 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of Tabs component can be controlled using the component specific actions(CSA):
@@ -83,8 +80,7 @@ Following actions of Tabs component can be controlled using the component specif
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables </div>   | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -93,8 +89,7 @@ Following actions of Tabs component can be controlled using the component specif
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Actions
 
 | <div style={{ width:"100px"}}> Action   </div>   | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"100px"}}> Properties </div> |
@@ -103,8 +98,7 @@ Following actions of Tabs component can be controlled using the component specif
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -114,8 +108,7 @@ Following actions of Tabs component can be controlled using the component specif
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"135px"}}> Style </div> | <div style={{ width:"100px"}}> Description </div> |

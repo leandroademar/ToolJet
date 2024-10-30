@@ -2,14 +2,13 @@
 id: use-axios-in-runjs
 title: Use Axios in RunJS
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ToolJet supports three libraries: **Moment.js**, **Lodash**, and **Axios**. This guide focuses on using the Axios library with RunJS queries. **[Axios](https://axios-http.com/docs/intro)** is a promise-based HTTP client for making requests to your own or external servers. It supports various request types like `GET`, `POST`, `PUT/PATCH`, and `DELETE`.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## GET Requests
 
 We'll use **[JSONPlaceholder](https://jsonplaceholder.typicode.com/)**, a free API, to demonstrate GET and PUT requests.
@@ -34,8 +33,7 @@ return data
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## POST Requests
 
 - Create a RunJS query and paste the code below:

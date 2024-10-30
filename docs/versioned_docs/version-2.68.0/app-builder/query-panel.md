@@ -3,8 +3,7 @@ id: query-panel
 title: Query Panel
 ---
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 The Query Panel, located at the bottom of the app-builder, allows you to create and manage queries to interact with connected **data sources**. It provides the capability to perform API requests, query **[databases](/docs/data-sources/overview)**, and apply **[transformations](/docs/tutorial/transformations)** or data manipulation using **[JavaScript](/docs/data-sources/run-js)** and **[Python](/docs/data-sources/run-py)**.
 
 The Query Panel consists of two sections:
@@ -17,8 +16,7 @@ The Query Panel consists of two sections:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Query Manager
 
 The Query Manager on the left lists all the queries that have been created in the application. Query Manager helps in managing the queries that have been created.

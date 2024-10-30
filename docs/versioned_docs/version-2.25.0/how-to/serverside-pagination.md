@@ -3,14 +3,12 @@ id: use-server-side-pagination
 title: Using Server Side Pagination in Tables
 ---
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 In this guide we will learn how to use server side pagination in table component. This will be helpful if you have a large data set and you want to load data in chunks. This will also help you to improve the performance of your application. This guide will be helpful if you are using data sources like MySQL, PostgreSQL, MSSQL, MongoDB, etc. in which you can use `limit` and `offset` to fetch data in chunks. We have also included an example to load data from Google Sheets in chunks.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Loading data from PostgreSQL in chunks
 
 - Let's say you have a table `users` in your PostgreSQL database and you want to load data from this table in chunks. You can use `limit` and `offset` to fetch data in chunks. Here is the SQL query to fetch data in chunks:
@@ -31,8 +29,7 @@ In this guide we will learn how to use server side pagination in table component
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 - Create a new query that will return the count of the records on the `users` table in postgresql db. This query will be used to calculate the total number of pages in the Table component. Here is the SQL query to fetch the count of records:
   
   ```sql

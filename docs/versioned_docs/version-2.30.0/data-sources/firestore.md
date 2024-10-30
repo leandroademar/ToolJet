@@ -3,14 +3,13 @@ id: firestore
 title: Cloud Firestore
 ---
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ToolJet can connect to **Cloud Firestore** databases to read and write data.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Connection 
 
 - ToolJet connects to your **Cloud Firestore** using JSON key of your GCP service account. Get your service account key as JSON from GCP console. For generating a new key, check out **[Firestore's official documentation](https://cloud.google.com/iam/docs/creating-managing-service-account-keys#iam-service-account-keys-create-console)**.
@@ -27,8 +26,7 @@ ToolJet can connect to **Cloud Firestore** databases to read and write data.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Querying Firestore 
 
 Click on the **+Add** button of the query manager at the bottom panel of the editor and select the database added in the previous step as the data source. 
@@ -48,8 +46,7 @@ Query results can be transformed using transformations. Read our transformations
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Supported Operations
 - **[Get Document](#get-document)**
 - **[Query collection](#query-collection)**
@@ -61,8 +58,7 @@ Query results can be transformed using transformations. Read our transformations
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Get Document
 
 Use this operation to get the data in a document.
@@ -79,8 +75,7 @@ Use this operation to get the data in a document.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Query collection
 
 Use this operation to query all the documents in a collection. Check firestore doc **[here](https://firebase.google.com/docs/reference/js/v8/firebase.database.Query)**.
@@ -103,8 +98,7 @@ Use this operation to query all the documents in a collection. Check firestore d
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Add Document to Collection
 
 Use this operation for creating a new document in a collection.
@@ -130,8 +124,7 @@ Use this operation for creating a new document in a collection.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Update Document
 
 Use this operation for updating the existing document in a collection. Also, it only updates fields if they exist, but doesn't replace an entire object like **[set operation](#set-document)**.
@@ -157,8 +150,7 @@ Use this operation for updating the existing document in a collection. Also, it 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Set Document
 
 This operation replaces your chosen object with the value that you provide. So if your object has 5 fields, and you use Set operation and pass object with 3 fields, it will now have 3 fields.
@@ -184,8 +176,7 @@ This operation replaces your chosen object with the value that you provide. So i
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Bulk update using document id
 
 Use this operation for bulk updating documents.
@@ -205,8 +196,7 @@ Use this operation for bulk updating documents.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Document
 
 Use this operation for deleting a document in a collection.
@@ -224,8 +214,7 @@ Use this operation for deleting a document in a collection.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Transforming Firestore Query Result for Table Widget
 
 The Firestore query result is in the form of object so we’ll need to transform it into array.

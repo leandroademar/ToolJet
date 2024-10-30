@@ -26,8 +26,7 @@ You can find the endpoint and key in the **[Azure Portal](https://portal.azure.c
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying CosmoDB
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.
@@ -39,8 +38,7 @@ You can find the endpoint and key in the **[Azure Portal](https://portal.azure.c
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Queries
 
 - **[List databases](#list-databases)**

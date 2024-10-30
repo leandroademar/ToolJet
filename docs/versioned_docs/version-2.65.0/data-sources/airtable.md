@@ -15,8 +15,7 @@ ToolJet can connect to your **Airtable** account to read and write data. **Perso
 Airtable API has a rate limit, and at the time of writing this documentation, the limit is five(5) requests per second per base. You can read more about rate limits here **[Airtable API](https://airtable.com/api)**.
 :::
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operations
 
 - **[List records](#list-records)**
@@ -27,8 +26,7 @@ Airtable API has a rate limit, and at the time of writing this documentation, th
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ### List records
 
 This operation returns a list of records from the specified table.

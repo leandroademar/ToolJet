@@ -2,7 +2,7 @@
 id: access-currentuser
 title: Enable/Disable a Component Using Current User's Property
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 Let's take a look at the exposed variables of the currentUser property by clicking on the **[inspector](/docs/app-builder/left-sidebar/#inspector)** icon on the left sidebar:
 
@@ -13,8 +13,7 @@ Let's take a look at the exposed variables of the currentUser property by clicki
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Example: Disable a Button if a User is Not Admin
 
 - Click on the **Button** handle to open its properties. On the **Styles** tab, go to the **Disable** property. 

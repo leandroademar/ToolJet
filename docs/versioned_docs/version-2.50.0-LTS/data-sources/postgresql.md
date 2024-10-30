@@ -5,8 +5,7 @@ title: PostgreSQL
 
 ToolJet has the capability to connect to PostgreSQL databases for data retrieval and modification.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Establishing a Connection
 
 To establish a connection with the PostgreSQL data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page from the ToolJet dashboard and choose PostgreSQL as the data source.
@@ -32,8 +31,7 @@ Please make sure the **Host/IP** of the database is accessible from your VPC if 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying PostgreSQL
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.

@@ -7,8 +7,7 @@ Pages allow you to have multiple pages in a single application, making your Tool
 
 <img className="screenshot-full" src="/img/v2-beta/pages/v3/pages-v3.png" alt="Multi-page app" />
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Pages Panel
 
 You can open the **Pages Panel** by clicking on the **Pages** icon on the left sidebar of the app-builder.
@@ -17,8 +16,7 @@ You can open the **Pages Panel** by clicking on the **Pages** icon on the left s
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Panel Options
 
 ### Add Page
@@ -54,8 +52,7 @@ You can open the **Pages Panel** by clicking on the **Pages** icon on the left s
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Page Options
 
 There are several options available for a Page. To use these options, click on the kebab menu on the right of the page card.
@@ -105,8 +102,7 @@ You can **delete** a page from an application using this option. <br/>
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Exposed variables
 
 | Variable    | Description |

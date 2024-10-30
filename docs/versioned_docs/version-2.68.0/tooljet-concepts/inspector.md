@@ -9,8 +9,7 @@ ToolJet's Inspector is a valuable feature for viewing data related to various el
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gXJYO5CRjVQ?si=duAkpWQAFSter2xg&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Sections In Inspector
 The Inspector panel is divided into six main sections: **Queries, Components, Globals, Variables, Page,** and **Constants**. In the Queries section, you can check the details of your executed queries. The Components section helps you check properties related to each component in your app. Globals provide important overall information about your app, like user details and settings. The Variables section shows custom variables you've set. In the Page section, you can see properties specific to each page. Lastly, Constants hold fixed values like API keys, ensuring consistency across your application.
 

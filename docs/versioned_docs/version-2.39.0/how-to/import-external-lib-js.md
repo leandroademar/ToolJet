@@ -2,22 +2,20 @@
 id: import-external-libraries-using-runjs
 title: Import External Libraries using RunJS
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ToolJet allows you to integrate external JavaScript libraries into your application using RunJS queries. This guide walks you through the process of importing and utilizing these libraries effectively.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Choosing Libraries
 
 You can import various JavaScript libraries using their Content Delivery Network (CDN) links. Find the CDN links for your desired open-source projects on [jsDelivr](https://www.jsdelivr.com/).
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Creating a New App and RunJS Query
 
 - Create a new app from the ToolJet Dashboard.
@@ -29,14 +27,12 @@ You can import various JavaScript libraries using their Content Delivery Network
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Importing Libraries
 
 Once the query is created, add the following code:
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ```js
 // Function to add script dynamically
 function addScript(src) {
@@ -77,14 +73,12 @@ Enable the **Run this query on application load?** option to make the libraries 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Examples
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 1. Flattening JSON Objects using FlattenJS
 
 - Create a new *RunJS* query using the Flatten library (imported earlier) to flatten a JSON object.
@@ -110,8 +104,7 @@ return flatten({
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 2. Computation using MathJS
 
 - Create another *RunJS* query utilizing the MathJS library for a calculation.

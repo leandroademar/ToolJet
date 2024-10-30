@@ -5,8 +5,7 @@ title: SMTP
 
 The SMTP datasource facilitates the connection between ToolJet applications and email servers, enabling the apps to send emails.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the SMTP data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview/)** page from the ToolJet dashboard and choose SMTP as the data source.
@@ -45,8 +44,7 @@ The SMTP configuration details like host and port can usually be obtained from y
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying SMTP
 
 To create a query for sending an email, follow these steps:

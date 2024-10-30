@@ -9,16 +9,14 @@ ToolJet employs a Role-Based Access Control (RBAC) system to manage security and
     <iframe width="560" height="315" src="https://www.youtube.com/embed/VIlC0MnQRNA?si=dBJ6gL5ux55s32OO&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Groups
 By default, there are two groups: **All Users**, which contains all workspace members, and **Admins**, which grants full access to all ToolJet resources. Custom groups like Support or Engineering can also be created to fine-tune access controls.
 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Setting Permissions Based on Groups and Permissions
 To secure your applications in ToolJet, you can leverage Groups and Permissions. For instance, you could create a custom group named Finance Team and assign it permissions to only access financial apps and variables within the workspace. When you invite new users, you can directly assign them to this group, ensuring they only have access to the resources they need to perform their tasks. You can also make the app public and make it accessible to users without the need to log in.
 

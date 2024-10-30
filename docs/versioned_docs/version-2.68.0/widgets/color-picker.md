@@ -7,8 +7,7 @@ title: Color Picker
 
 **Color Picker** widget is used to select the desired color from the color picker
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 ### Default color
@@ -26,8 +25,7 @@ Invalid Color : #0000, "black" , rgb(0,0,0) ,
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 To add an event to a color-picker component, click on the widget handle to open the widget properties on the right sidebar. Go to the **Events** section and click on **+ Add handler**.
@@ -38,8 +36,7 @@ To add an event to a color-picker component, click on the widget handle to open 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 The following actions of the component can be controlled using component specific actions(CSA):
@@ -50,8 +47,7 @@ The following actions of the component can be controlled using component specifi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables </div> | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -62,8 +58,7 @@ The following actions of the component can be controlled using component specifi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Layout
 
 | <div style={{ width:"100px"}}> Layout </div> | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"135px"}}> Expected Value  </div> |
@@ -73,8 +68,7 @@ The following actions of the component can be controlled using component specifi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Styles
 
 | <div style={{ width:"100px"}}> Style </div> | <div style={{ width:"100px"}}> Description    </div>                                                                                                                                                                                                                                          | <div style={{ width:"135px"}}> Expected Value </div> |
@@ -83,8 +77,7 @@ The following actions of the component can be controlled using component specifi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Actions
 
 | <div style={{ width:"100px"}}> Action  </div>    | <div style={{ width:"100px"}}> Description </div> | <div style={{ width:"100px"}}> Properties </div> |

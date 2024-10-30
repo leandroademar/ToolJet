@@ -22,8 +22,7 @@ To successfully establish the connection, ToolJet requires the following details
 
 Once you have entered the connection string, click on the **Test connection** button to verify the connection's success. To save the data source, click on the **Save** button.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Azure Blob
 
 Once you have connected to the Azure Blob data source, follow these steps to create queries and interact with Azure Blob storage from the ToolJet application:

@@ -5,8 +5,7 @@ title: Snowflake
 
 ToolJet can connect to Snowflake databases to read and write data.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the Snowflake data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview/)** page from the ToolJet dashboard and choose Snowflake as the data source.
@@ -31,8 +30,7 @@ You can also configure for **[additional optional parameters](https://docs.snowf
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Snowflake
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.

@@ -5,8 +5,7 @@ title: Text Input
 
 The **Text Input** component allows users to enter a single line of text. It can be used as a standalone component or in Form fields. In this document, we'll go through all the configuration options for the **Text Input** component. 
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Properties
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"250px"}}> Description </div> | <div style={{width: "200px"}}> Expected Value </div>|
 |:---------------|:-------------------------------------------------|:-----------------------------|
@@ -16,8 +15,7 @@ The **Text Input** component allows users to enter a single line of text. It can
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Events
 
 | Event            | Description  | 
@@ -33,8 +31,7 @@ Check [Action Reference](/docs/category/actions-reference) docs to get detailed 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of component can be controlled using the component specific actions(CSA):
@@ -51,8 +48,7 @@ Following actions of component can be controlled using the component specific ac
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | Variable | Description | How To Access |
@@ -67,8 +63,7 @@ Following actions of component can be controlled using the component specific ac
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Validation
 
 | <div style={{ width:"100px"}}> Validation Option </div> | <div style={{ width:"200px"}}> Description </div> | <div style={{width: "200px"}}> Expected Value </div>|
@@ -87,8 +82,7 @@ To add regex inside `Custom Validation`, you can use the below format:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Additional Actions
 
 | <div style={{ width:"100px"}}> Action </div> | <div style={{ width:"150px"}}> Description </div> | <div style={{ width:"250px"}}> Configuration Options </div>|
@@ -100,8 +94,7 @@ To add regex inside `Custom Validation`, you can use the below format:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Devices
 
 |<div style={{ width:"100px"}}> Property </div> | <div style={{ width:"150px"}}> Description </div> | <div style={{ width:"250px"}}> Expected Value </div>|
@@ -115,8 +108,7 @@ To add regex inside `Custom Validation`, you can use the below format:
 
 # Styles 
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Label
 
 | <div style={{ width:"100px"}}> Label Property </div> | <div style={{ width:"150px"}}> Description </div> | <div style={{ width:"250px"}}> Configuration Options </div>|
@@ -127,8 +119,7 @@ To add regex inside `Custom Validation`, you can use the below format:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Field
 
 | <div style={{ width:"100px"}}> Field Property </div> | <div style={{ width:"150px"}}> Description </div> | <div style={{ width:"250px"}}> Configuration Options </div>|
@@ -143,8 +134,7 @@ To add regex inside `Custom Validation`, you can use the below format:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Container
 
 **Padding** <br/>

@@ -10,8 +10,7 @@ In ToolJet, double curly braces `{{}}` can be used to retrieve data returned by 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hMzkNaHMFr0?si=s5WeHv2hY6rBrvE_&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Accessing Values
 
 The **queries** keyword can be used to access data returned by queries. For example:`{{queries.getSalesData.data}}`
@@ -25,8 +24,7 @@ Similarly, the **components** keyword can be used to access data in the componen
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Writing Custom Code 
 
 You can write custom JavaScript code to set colors, enable or disable toggles and more by passing in JavaScript code inside double curly braces. To change Background Color of a button based on the light or dark theme using **fx** (next to properties in properties panel), you can use a code that returns a string value of hex code. <br/>

@@ -30,8 +30,7 @@ ToolJet requires the following to connect to your ClickHouse Database:
 <img className="screenshot-full" src="/img/datasource-reference/clickhouse/connection-v2.png" alt="ClickHouse connection" />
 
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying ClickHouse
 
 After setting up the ClickHouse data source, you can click on the **+ Add** button of the query manager and select the **ClickHouse** data source that you added in the previous step to create a new query.
@@ -42,8 +41,7 @@ For more details on clickhouse visit [Clickhouse docs](https://clickhouse.com/do
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operations: 
 
 - **[SQL Query](#sql-query)**

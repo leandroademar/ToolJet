@@ -15,8 +15,7 @@ This quickstart guide walks you through the process of creating an employee dire
 **[6. Use Events to Trigger Queries](#6-use-events-to-trigger-queries)** <br/>
 **[7. Preview, Release and Share](#7-preview-release-and-share)** <br/>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 <!-- </div> -->
 
 ### 1. Create Your First Application
@@ -37,8 +36,7 @@ To begin, create a free **[ToolJet](https://www.tooljet.com/signup)** account an
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 2. Create a Database Table
 Now, create a new table in **[ToolJet’s Database](/docs/tooljet-db/tooljet-database/)** to store employee records. 
 
@@ -52,8 +50,7 @@ Now, create a new table in **[ToolJet’s Database](/docs/tooljet-db/tooljet-dat
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 3. Create a Query to Fetch Data
 
 To display employees in the application, you will first have to fetch the data from the database using a query.
@@ -72,8 +69,7 @@ To display employees in the application, you will first have to fetch the data f
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 4. Bind Queried Data to the UI
 
 Now, you need to bind the data returned by the *getEmployees* query with the Table created in the first step. 
@@ -94,8 +90,7 @@ Now the Table component is filled with the data returned by the *getEmployees* q
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 5. Create a Query to Add Data
 
 In the bottom-right corner of the Table component, there is a **+(Add new row)** button that opens an auto-generated form to add new data to the Table. Follow the steps below to create an *addEmployees* query and execute it when you click the **Save** button on the auto-generated form.
@@ -120,8 +115,7 @@ In the bottom-right corner of the Table component, there is a **+(Add new row)**
 Frame all the remaining keys in the same format.
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 6. Use Events to Trigger Queries
 
 The *addEmployees* query should run when you click the **Save** button on the auto-generated form. The Table component should then reload and display the updated data whenever a new employee is added. Follow the steps below to set up this functionality using events.
@@ -140,8 +134,7 @@ Now, when you click the **+ (Add new row)** button on the Table component, enter
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### 7. Preview, Release, and Share
 
 The preview, release and share buttons are at the top-right of the App-Builder.

@@ -3,16 +3,14 @@ id: platform-overview
 title: Platform Overview
 slug: /
 ---
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## What is ToolJet?
 
 ToolJet is a low-code platform that enables developers to rapidly build and deploy custom internal tools. It has a drag-and-drop app builder with 45 pre-built components, so developers can create complex applications in minutes. ToolJet also connects to most popular data sources and APIs out of the box, and it has a group-based permission system for easy user access management. ToolJet also comes with a lot of other features, but for now, let’s build a basic ToolJet app.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## How ToolJet Works:
 
 <div style={{textAlign: 'center'}}>
@@ -31,7 +29,7 @@ ToolJet is a low-code platform that enables developers to rapidly build and depl
 
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 Below is a detailed overview of ToolJet's key functionalities, demonstrating how ToolJet helps teams to build more with less effort and greater efficiency. 
 
@@ -44,8 +42,7 @@ Enables the creation of visually appealing front-ends with a drag-and-drop inter
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Integrations
 Offers seamless integration with a wide range of data sources, including over 50 applications, databases, and APIs. 
 
@@ -55,8 +52,7 @@ Offers seamless integration with a wide range of data sources, including over 50
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### ToolJet Database
 A robust, scalable database solution built atop PostgreSQL. It allows for no-code database management, enabling users to build, manage, and scale databases effortlessly.
 
@@ -66,8 +62,7 @@ A robust, scalable database solution built atop PostgreSQL. It allows for no-cod
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Workflow Automation
 Simplifies the automation of complex manual business processes, reducing the engineering effort required. 
 <!-- This feature is particularly useful for streamlining enterprise workflows and improving operational efficiency. -->
@@ -78,8 +73,7 @@ Simplifies the automation of complex manual business processes, reducing the eng
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Enterprise-Grade Security
 Designed with advanced security features and a scalable infrastructure to meet the needs of enterprise teams. 
 <!-- This ensures the protection of sensitive data and the reliability of the platform in handling large-scale applications. -->
@@ -90,8 +84,7 @@ Designed with advanced security features and a scalable infrastructure to meet t
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### SSO Support
 
 Single Sign-On (SSO) capabilities, supporting a variety of providers including Okta, Google, Azure AD, and OpenID Connect. 
@@ -102,8 +95,7 @@ Single Sign-On (SSO) capabilities, supporting a variety of providers including O
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Multiple Environments
 Creation and management of multiple environments for efficient application lifecycle management, allowing different stages like development, testing, and production to be handled seamlessly.
 
@@ -113,8 +105,7 @@ Creation and management of multiple environments for efficient application lifec
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Multiplayer Editing
 
 Multiple users can collaboratively work on app development in real-time. Simultaneous edits and contributions from different team members streamlines the development process and fosters a more dynamic and interactive workspace

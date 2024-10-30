@@ -7,8 +7,7 @@ In ToolJet, custom **Run Python Code** can be used to interact with components a
 
 <img className="screenshot-full" src="/img/datasource-reference/custom-python/add-run-py.png" alt="Run Python code" />
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Using Python Code to Trigger Component Specific Actions
 
 1. Drag a **Text** component onto the canvas. We will set the text on the Text component using the Python query.
@@ -38,8 +37,7 @@ components.text1.setText(p1.myfunc())
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Trigger Queries Using Run Python Code
 
 To trigger queries in Python, you can use the below functions:
@@ -56,8 +54,7 @@ queries.getSalesData.run()
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Get Query Data
 
 To immediately access the data returned by a query in **Run Python code**, you can use the below functions: 
@@ -100,8 +97,7 @@ value
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Get Variables
 
 To set and access variables or page variables in **Run Python code**, you can use the below functions:
@@ -142,8 +138,7 @@ actions.getPageVariable('number')
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Using Transformations With Python
 
 **Run Python code** can be used to transform the data that is fetched in the queries. To test transformations using Python, create a new **REST API** query, leave the method as *GET* and enter the below url under the **URL** property.
@@ -190,8 +185,7 @@ return sum(product["price"] for product in data["products"] if product["category
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Refer Python Query Data in Components
 
 Just like other dynamic values, you can refer the data returned by **Run Python code** queries using double curly braces`{{}}`.

@@ -11,8 +11,7 @@ To access the Workspace Login, navigate to the ToolJet dashboard and click on th
  <img style={{ border:'0', marginBottom:'15px', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/sso/workspace-settings/login-sso-v2.png" alt="Workspace settings" />
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Workspace Login State: Enabled/Inherited
 
 The workspace login state can be either `Enabled` or `Inherited`. When the workspace login state is `Enabled`, it overrides the instance login configurations, including allowed domains, enable sign-up toggle, and password login toggle. Workspace admins can separately choose to enable or disable the SSO options of the workspace.
@@ -29,28 +28,24 @@ When the workspace login state is `Inherited`, the workspace login settings are 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Configuring Workspace Login
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Allowed Domains
 
 The allowed domains field is used to specify the domains that are allowed to access the workspace. If the allowed domains field is empty, all domains are allowed to access the workspace. If the allowed domains field is not empty, only the specified domains are allowed to access the workspace. The allowed domains field can be a comma-separated list of domains.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Login URL
 
 Login URL is automatically generated and can be used to login directly to the workspace. The login URL is unique to the workspace and can be shared with the users to access the workspace.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Enable Sign-up
 
 The enable sign-up toggle is used to enable or disable the sign-up option for the workspace. If the enable sign-up toggle is enabled, new users can sign up for the workspace. If the enable sign-up toggle is disabled, new users cannot sign up for the workspace.
@@ -59,24 +54,21 @@ The enable sign-up toggle is used to enable or disable the sign-up option for th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Password Login
 
 Password login is a method of user authentication where user can login using their email and password. This option is enabled by default. If the password login toggle is disabled, users can only login to the workspace using the SSO options.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Retry Limits
 
 The user password authentication method will be disabled after predefined numbers of wrong password attempts. This feature can be disabled using setting `DISABLE_PASSWORD_RETRY_LIMIT` to `true` in environment variables. Number of retries allowed will be 5 by default, it can be override by `PASSWORD_RETRY_LIMIT` environment variable.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Reset Password
 
 There are two ways through which a user can reset their password. The first method is where user can reset their password by themselves. The second method is where a **Super Admin** can reset password for a user.

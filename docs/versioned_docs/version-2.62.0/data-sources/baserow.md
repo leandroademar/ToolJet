@@ -3,14 +3,13 @@ id: baserow
 title: Baserow
 ---
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ToolJet can connect to your Baserow account to read and write data.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Connection
 
 To connect to Baserow, you need to provide the following details:
@@ -27,8 +26,7 @@ To connect to Baserow, you need to provide the following details:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Supported Operations
 
 - **[List fields](#list-fields)**
@@ -41,8 +39,7 @@ To connect to Baserow, you need to provide the following details:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### List fields
 
 This query lists all the fields in a table.
@@ -101,8 +98,7 @@ Example response from Baserow:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### List rows
 
 This query lists all the rows in a table.
@@ -156,8 +152,7 @@ Example response from Baserow:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Get row
 
 #### Required parameters:
@@ -188,8 +183,7 @@ Example response from Baserow:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create row
 
 #### Required parameters:
@@ -231,8 +225,7 @@ Example response from Baserow:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Update row
 
 #### Required parameters:
@@ -273,8 +266,7 @@ Example response from Baserow:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Move row
 
 #### Required parameters:
@@ -308,8 +300,7 @@ Example response from Baserow:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete row
 
 #### Required parameters:

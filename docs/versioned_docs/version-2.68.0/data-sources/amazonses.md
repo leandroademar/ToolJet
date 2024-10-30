@@ -5,8 +5,7 @@ title: Amazon SES
 
 ToolJet can connect to your Amazon SES account to send emails.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the **Amazon SES** data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page through the ToolJet dashboard.
@@ -28,8 +27,7 @@ ToolJet requires the following to connect to Amazon SES:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Amazon SES
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.
@@ -41,8 +39,7 @@ ToolJet requires the following to connect to Amazon SES:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operation
 
 ### Email service

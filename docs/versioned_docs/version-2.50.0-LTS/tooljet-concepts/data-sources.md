@@ -9,8 +9,7 @@ Data sources are pivotal as they enable us to fetch and send data to and from di
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XIDE_zA5VGc?si=n5j4WFcl75Baae1w&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Types and Management of Data Sources
 
 Apart from its built-in database, ToolJet supports a range of external data sources which can be broadly categorized into databases, external APIs, and services. To manage these data sources, ToolJet provides a data source manager that can be opened by clicking on the **Data Sources** button located on the left-sidebar of the App-Builder. 
@@ -21,8 +20,7 @@ Apart from its built-in database, ToolJet supports a range of external data sour
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Adding a Data Source
 
 Adding a new data source is as easy as filling out a form; users can click on the Data Sources button in the left-sidebar, navigate to the required data source, click on the corresponding **Add** button and enter the credentials.

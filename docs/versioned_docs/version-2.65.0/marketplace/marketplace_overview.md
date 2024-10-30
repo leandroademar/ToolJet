@@ -11,8 +11,7 @@ ToolJet Marketplace allows users to enhance their workspaces by adding custom pl
     <img style={{ border:'0', marginBottom:'15px', borderRadius:'5px', boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.2)' }} className="screenshot-full" src="/img/marketplace/overview/marketplace-v2.png" alt="Marketplace Overview" />
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Enabling Marketplace 
 
 To **Enable** the marketplace feature, users need to add the following environment variable to their **[`.env`](/docs/setup/env-vars#marketplace)** file:
@@ -29,8 +28,7 @@ The logged-in user should be an **Administrator** to access the marketplace page
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Installing a Plugin
 
 To navigate to the Marketplace page, click on the settings icon on the bottom left of the dashboard, and click on **Marketplace** from the selection menu.
@@ -45,8 +43,7 @@ Under the **Marketplace** tab, you will see a list of all the available plugins 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Using Marketplace Plugins
 
 You can access any installed plugins by following these steps:

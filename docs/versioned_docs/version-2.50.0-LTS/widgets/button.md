@@ -6,8 +6,7 @@ title: Button
 
 **Button** component can be used to trigger an action. It can be used to submit a form, navigate to another page, or trigger a query.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 | <div style={{ width:"100px"}}> Property </div> | <div style={{ width:"250px"}}> Description </div> | <div style={{width: "200px"}}> Expected Value </div>|
@@ -32,8 +31,7 @@ Check [Action Reference](/docs/category/actions-reference) docs to get detailed 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of Button component can be controlled using the component specific actions(CSA):
@@ -48,8 +46,7 @@ Following actions of Button component can be controlled using the component spec
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variable </div> | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |

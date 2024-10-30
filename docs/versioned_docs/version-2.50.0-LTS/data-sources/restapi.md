@@ -5,8 +5,7 @@ title: REST API
 
 ToolJet can establish a connection with any available REST API endpoint and create queries to interact with it.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection
 
 To establish a connection with the REST API data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page through the ToolJet dashboard.
@@ -29,8 +28,7 @@ ToolJet requires the following to connect to a REST API data source:
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying REST API
 
 Once you have connected to the REST API data source, follow these steps to write queries and interact with a REST API in the ToolJet application:
@@ -55,8 +53,7 @@ ToolJet supports the following REST HTTP methods
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Additional Header
 
 Whenever a request is made to the REST API, a **tj-x-forwarded-for** header is added to the request, the value of the header will be the IP address of the user who is logged in to the ToolJet application. This header can be used to identify the user who is making the request to the REST API.
@@ -65,8 +62,7 @@ Whenever a request is made to the REST API, a **tj-x-forwarded-for** header is a
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Request Types
 
 The plugin will send a **JSON** formatted body by default. If you want to send a different type of body, you can enter the appropriate headers in the **Headers** section. 
@@ -83,8 +79,7 @@ Content-Type: multipart/form-data;
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Response Types
 
 REST APIs can return data in a variety of formats, including **JSON** and **Base64**. JSON is a common format used for data exchange in REST APIs, while Base64 is often used for encoding binary data, such as images or video, within a JSON response.
@@ -169,8 +164,7 @@ Read the guide on **[loading base64 data](/docs/how-to/loading-image-pdf-from-db
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## OAuth 2.0 Method for Authenticating REST APIs
 
 ToolJet’s REST API data source supports OAuth 2.0 as the authentication type.
@@ -223,8 +217,7 @@ Let’s create a query to make a `GET` request to the URL, it will pop a new win
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Bearer Token Method for Authenticating REST APIs
 
 ToolJet’s REST API data source supports Bearer Token as the authentication type. Bearer Token is a security token that is issued by the authentication server to the client. The client then uses the token to access the protected resources hosted by the resource server.

@@ -6,8 +6,7 @@ title: Checkbox
 
 The **Checkbox** component allows users to make a binary choice, such as selecting or deselecting an option.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Properties
 
 ### Data
@@ -19,8 +18,7 @@ The **Checkbox** component allows users to make a binary choice, such as selecti
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Events
 
 | <div style={{ width:"100px"}}> Event </div>     | <div style={{ width:"100px"}}> Description </div> |
@@ -35,8 +33,7 @@ Check [Action Reference](/docs/category/actions-reference) docs to get the detai
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Component Specific Actions (CSA)
 
 Following actions of Checkbox component can be controlled using the component specific actions(CSA):
@@ -53,8 +50,7 @@ Following actions of Checkbox component can be controlled using the component sp
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Exposed Variables
 
 | <div style={{ width:"100px"}}> Variables  </div> | <div style={{ width:"135px"}}> Description </div> | <div style={{ width:"135px"}}> How To Access </div> |
@@ -69,8 +65,7 @@ Following actions of Checkbox component can be controlled using the component sp
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Validation
 
 | <div style={{ width:"100px"}}> Validation Option </div> | <div style={{ width:"200px"}}> Description </div> | <div style={{width: "200px"}}> Expected Value </div>|

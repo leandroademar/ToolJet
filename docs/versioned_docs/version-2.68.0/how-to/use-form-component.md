@@ -2,13 +2,13 @@
 id: use-form-component
 title: Use Form Component
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 In this guide, we'll create a simple app that uses a **[Form](/docs/widgets/form)** component to add records to a database. We'll use **[ToolJet Database](/docs/tooljet-database)** as our data source. 
 
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## 1. Create a Table in ToolJet Database 
 - Create a table named *products* in ToolJet Database. 
@@ -21,8 +21,7 @@ In this guide, we'll create a simple app that uses a **[Form](/docs/widgets/form
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## 2. Create the UI
 - Create a new app and drag and drop a **[Table](/docs/widgets/table)** component on the canvas.
 - Drop a **[Form](/docs/widgets/form)** next to it.
@@ -36,8 +35,7 @@ In this guide, we'll create a simple app that uses a **[Form](/docs/widgets/form
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## 3. Load the Table Component With Data
 
 - Click on the Add button in the **[Query Panel](/docs/app-builder/query-panel/)**, select ToolJet Database
@@ -55,8 +53,7 @@ In this guide, we'll create a simple app that uses a **[Form](/docs/widgets/form
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## 4. Write Data Using the Form Component 
 - Click on the Add button in the Query Panel, select ToolJet Database
 - Select *products* as Table name, Create row as Operations

@@ -5,7 +5,7 @@ title: Build Dynamic Forms
 
 This guide walks you through the process of building dynamic, interactive forms in ToolJet through validations.   
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## 1. Creating the UI
 Let’s get started by setting up your form’s interface.
@@ -26,7 +26,7 @@ Drag and drop a **Form** component on the canvas and place the following input c
 
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## 2. Add Validations and Conditions
 Now, let’s add some magic with validations and conditions to make your form smart and responsive. 
@@ -55,7 +55,7 @@ d. Finally, the *button1* component has to be disabled if the rating, email, and
 ```
 </div>
 
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ## 3. Test the Functionality
 

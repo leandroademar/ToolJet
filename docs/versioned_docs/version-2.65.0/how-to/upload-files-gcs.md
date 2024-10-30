@@ -2,7 +2,7 @@
 id: upload-files-gcs
 title: Upload Files Using GCS
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 In this guide, we are going to create an interface to upload PDFs to Google Cloud Storage.
 
@@ -10,8 +10,7 @@ Before adding the new data source we will need to have a private key for our GCS
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Setting up Google Cloud Storage Data Source
 
 1. Go to the data source manager on the left-sidebar and click on the `+` button.
@@ -27,8 +26,7 @@ Before adding the new data source we will need to have a private key for our GCS
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Adding a File Picker
 
 1. Drag and drop the **file picker** widget on the canvas
@@ -59,8 +57,7 @@ Before adding the new data source we will need to have a private key for our GCS
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Creating a Query
 
 1. Click on the `+` button of the query manager at the bottom panel of the editor and select the GCS data source
@@ -74,8 +71,7 @@ Before adding the new data source we will need to have a private key for our GCS
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Running the Query
 1. Add a **button** that will fire the query to upload the file
 2. Edit the properties of the button and add a **event handler** to **Run the query** on **On-Click** event.

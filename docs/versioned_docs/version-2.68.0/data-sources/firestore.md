@@ -5,8 +5,7 @@ title: Cloud Firestore
 
 ToolJet can connect to **Cloud Firestore** databases to read and write data.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connection 
 
 To establish a connection with the **Cloud Firestore** data source, you can either click on the **+ Add new Data source** button located on the query panel or navigate to the **[Data Sources](/docs/data-sources/overview)** page from the ToolJet dashboard and choose Cloud Firestore as the data source.
@@ -20,8 +19,7 @@ For generating a private key check out **[Firestore's official documentation](ht
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying Firestore 
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.
@@ -37,8 +35,7 @@ Query results can be transformed using transformations. Read our transformations
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operations
 - **[Get Document](#get-document)**
 - **[Query collection](#query-collection)**
@@ -157,8 +154,7 @@ Use this operation for deleting a document in a collection.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Transforming Firestore Query Result for Table Widget
 
 The Firestore query result is in the form of object so we’ll need to transform it into array.

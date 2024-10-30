@@ -21,12 +21,10 @@ Querying the ToolJet database is as easy as querying any other data source on To
     </div>
 
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Available Operations
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### List Rows
 This operation returns all the records from the table.
 
@@ -37,8 +35,7 @@ This operation returns all the records from the table.
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create row
 This operation creates a new record in the table. You can create a single record or multiple records at once.
 
@@ -47,8 +44,7 @@ This operation creates a new record in the table. You can create a single record
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Update Row
 This operation updates a record in the table. You can update a single record or multiple records at once.
 
@@ -58,8 +54,7 @@ This operation updates a record in the table. You can update a single record or 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete Row
 This operation deletes a record in the table. You can delete a single record or multiple records at once.
 
@@ -69,8 +64,7 @@ This operation deletes a record in the table. You can delete a single record or 
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Join Tables
 
 You can join two or more tables in the ToolJet database by using the **Join** operation.

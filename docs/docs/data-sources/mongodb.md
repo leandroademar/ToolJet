@@ -5,8 +5,7 @@ title: MongoDB
 
 ToolJet can connect to MongoDB to read and write data.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Manual Connection
 
 To establish a manual connection with the **MongoDB** data source, click on the **+ Add new data source** button located on the query panel or navigate to the [Data Sources](/docs/data-sources/overview) page from the ToolJet dashboard.
@@ -28,8 +27,7 @@ ToolJet requires the following to connect to your MongoDB.
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Connect Using Connecting String
 
 You can also use a **Connection String** by switching the method from the dropdown. You will be prompted to enter the details of your MongoDB connection. 
@@ -49,8 +47,7 @@ For example: `mongodb+srv://tooljettest:dummypassword@cluster0.urul7.mongodb.net
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Querying MongoDB
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor and select the database added in the previous step as the data source. 
@@ -63,8 +60,7 @@ For example: `mongodb+srv://tooljettest:dummypassword@cluster0.urul7.mongodb.net
 Query results can be transformed using transformations. Read our transformations documentation to see how: [link](/docs/tutorial/transformations)
 :::
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Supported Operations
 
 - **[List Collections](#list-collections)**
@@ -500,8 +496,7 @@ Perform bulk operations. [Reference](https://docs.mongodb.com/drivers/node/v4.0/
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Dynamic Queries
 
 Dynamic queries in MongoDB can be used to create flexible and parameterized queries.

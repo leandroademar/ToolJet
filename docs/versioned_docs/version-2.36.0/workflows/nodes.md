@@ -7,8 +7,7 @@ Nodes are a graphical representation of each process in a workflow. Each node in
 
 Apart from the default **Start Trigger** and **Result** nodes, there are an array of nodes that you can add to the canvas. They can be broadly divided into four types - **JavaScript**, **If condition**, **Data sources** and **REST API**. Let's take a closer look at each node.
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## JavaScript
 
 The **JavaScript** node lets you write custom JavaScript code than runs on the server side. Server-side execution of code protects sensitive logic and data from exposure to the client and improves performance by offloading complex computations from the client. You can use the JavaScript code to transform data, create alert messages and more. The code you enter in each JavaScript node needs a **return** statement to ensure that the result is sent to the next node. 
@@ -19,8 +18,7 @@ The **JavaScript** node lets you write custom JavaScript code than runs on the s
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## If condition
 The **If condition** node can have one or two incoming flows and two outgoing flows. If it has two incoming flows, it'll only trigger after the execution of both the incoming flows is completed. 
 
@@ -41,8 +39,7 @@ The **If condition** node triggers one of the outgoing flows depending on the gi
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Data Sources 
 In the flow builder of ToolJet, all the data sources you've set up will appear as nodes. These nodes can be utilized to perform intricate queries on your data sources, establish connections with APIs, send emails and messages, and more.
 
@@ -58,8 +55,7 @@ Each node type will have a different configuration based on the function it perf
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## REST API
 
 The **REST API** node acts as a bridge to connect with RESTful web services. By leveraging standard HTTP methods like GET, POST, PUT, and DELETE, the REST API node ensures smooth communication with web services, making data integration and manipulation more efficient and straightforward.

@@ -4,8 +4,7 @@ title: Run JavaScript Code
 ---
 The **Run JavaScript Code** feature in ToolJet allows custom JavaScript code to be executed to enhance application interactivity. This feature is useful for performing calculations, generating values, or interacting with queries and components.
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Creating a Run JavaScript Query
 
 1. Click on **+ Add** button of the query manager at the bottom panel of the editor.
@@ -17,8 +16,7 @@ The **Run JavaScript Code** feature in ToolJet allows custom JavaScript code to 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Parameters in Run JavaScript Code
 
 Parameters allow for dynamic control over the JavaScript code execution without altering the core script. This provides flexibility by allowing the same code to execute with different inputs.
@@ -86,8 +84,7 @@ With this setup, the *multiply* query can be called from other queries, such as 
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## RunJS Example Queries
 
 ### Generating a Random Number
@@ -146,8 +143,7 @@ This ID will be longer than the one generated earlier, and it could look like "2
 
 </div>
 
-<div style={{paddingTop:'24px'}}>
-
+<div>
 ## Libraries
 
 ToolJet allows you to internally utilize these libraries:

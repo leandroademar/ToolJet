@@ -3,8 +3,7 @@ id: what-are-queries
 title: Queries
 ---
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 **Queries** act as a bridge between the application and data sources. Queries help interact with data sources like databases or APIs. They fetch or update data based on events like button clicks, making apps dynamic.
 
 <div class="video-container">
@@ -13,8 +12,7 @@ title: Queries
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Creation and Management
 
 **Query Panel** is the hub for creating and managing queries to interact with connected data sources. Located at the bottom of the app-builder, it allows users to perform API requests, database queries, and data manipulations using JavaScript and Python. The Query Panel is divided into two main sections: on the left, the **Query Manager** allows for the listing and management of queries; on the right, the **Query Editor** provides the functionality to construct queries either through a low-code interface or by manually entering the query text.
@@ -25,8 +23,7 @@ title: Queries
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Execution and Interaction
 
 Queries run when triggered by app events, such as clicking a button. They can fetch new data or change existing data, and the results can be displayed in the app using tables or charts. This makes data interaction in your app straightforward and effective.

@@ -2,7 +2,7 @@
 id: airtable
 title: Airtable
 ---
-<div style={{paddingBottom:'24px'}}>
+<div >
 
 ToolJet can connect to your **Airtable** account to read and write data. **Personal Access Token** is required to connect to the Airtable data source on ToolJet. You can generate the Personal Access Token by visiting **[Developer Hub from your Airtable profile](https://support.airtable.com/docs/creating-and-using-api-keys-and-access-tokens#understanding-personal-access-token-basic-actions)**.
 
@@ -18,8 +18,7 @@ Airtable API has a rate limit, and at the time of writing this documentation, th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ## Supported Operations
 
 - **[List records](#list-records)**
@@ -30,8 +29,7 @@ Airtable API has a rate limit, and at the time of writing this documentation, th
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### List records
 
 This operation returns a list of records from the specified table.
@@ -92,8 +90,7 @@ Example response from Airtable:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Retrieve record
 
 #### Required parameters:
@@ -124,8 +121,7 @@ Example response from Airtable:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Create record
 
 #### Required parameters:
@@ -171,8 +167,7 @@ Query returns the following response when the record is created successfully:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Update record
 
 #### Required parameters:
@@ -217,8 +212,7 @@ Query returns the following response when the record is updated successfully:
 
 </div>
 
-<div style={{paddingTop:'24px', paddingBottom:'24px'}}>
-
+<div>
 ### Delete record
 
 #### Required parameters:
