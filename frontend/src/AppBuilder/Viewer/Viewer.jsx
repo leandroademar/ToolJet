@@ -64,7 +64,7 @@ export const Viewer = ({ id: appId, darkMode, moduleId = 'canvas', switchDarkMod
     shallow
   );
   const getCurrentPageComponents = useStore((state) => state.getCurrentPageComponents(), shallow);
-  const currentPageComponents = useMemo(() => getCurrentPageComponents, [getCurrentPageComponents]);
+  const currentPageComponents = getCurrentPageComponents();
   const isPagesSidebarHidden = useStore((state) => state.getPagesSidebarVisibility('canvas'), shallow);
   const canvasBgColor = useStore((state) => state.getCanvasBackgroundColor('canvas', darkMode), shallow);
   const deviceWindowWidth = window.screen.width - 5;
@@ -89,10 +89,8 @@ export const Viewer = ({ id: appId, darkMode, moduleId = 'canvas', switchDarkMod
   }, [isSidebarPinned]);
 
   const canvasRef = useRef(null);
-  const isLoading = false;
   const isMobilePreviewMode = selectedVersion?.id && currentLayout === 'mobile';
   const isAppLoaded = !!editingVersion;
-  const isMobileDevice = deviceWindowWidth < 600;
   const switchPage = useStore((state) => state.switchPage);
 
   const showHeader = !globalSettings?.hideHeader && isAppLoaded;
