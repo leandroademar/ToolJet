@@ -52,7 +52,7 @@ jobs:
           context: .
           file: docker/production.Dockerfile
           push: true
-          tags: tooljet/tooljet-ce:develop
+          tags: leandroademar/tooljet-ce:develop
           platforms: linux/amd64
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
